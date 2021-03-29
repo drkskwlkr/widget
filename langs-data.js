@@ -572,7 +572,7 @@ export default {
         // tooltip on heatmap tab title
         'tab.heatmapTitle': 'Onde as pessoas estão no mundo real',
         // max 8 characters
-        'tab.chatTabLabel': 'CONVERSE',
+        'tab.chatTabLabel': 'CHAT',
         // max 8 characters
         'tab.rankingTabLabel': 'PÁGINAS',
         // max 8 characters
@@ -742,7 +742,7 @@ export default {
         // tooltip on heatmap tab title
         'tab.heatmapTitle': 'Woher kommen die Besucher',
         // max 8 characters
-        'tab.chatTabLabel': 'CHATTEN',
+        'tab.chatTabLabel': 'CHAT',
         // max 8 characters
         'tab.rankingTabLabel': 'SEITEN',
         // max 8 characters
@@ -825,7 +825,7 @@ export default {
         // the elements below are composed to create a phrase this way:
         // footer1+" "+terms+" "+footer2+" "+privacy+" "+footer3
         // example: "Klicken Sie auf “Anmelden” und akzeptiere damit die Nutzungsbedingungen und die Datenschutzbestimmungen von Now4real"
-        'social-modal.footer1': 'Klick “Anmelden” und akzeptiere  damit die',
+        'social-modal.footer1': 'Klick “Anmelden” und akzeptiere damit die',
         'social-modal.terms': 'Nutzungsbedingungen',
         'social-modal.footer2': 'und die',
         'social-modal.privacy': 'Datenschutzbestimmungen',
