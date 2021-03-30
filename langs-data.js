@@ -174,7 +174,7 @@ export default {
      * ITALIAN
      ***************/
     'it': {
-        'genericError': 'Oops! Qualcosa è andato storto',
+        'genericError': 'Ops! Qualcosa è andato storto',
 
         /**
          * commons
@@ -267,12 +267,12 @@ export default {
         'chat.welcomeFirstMessagePage': 'Chatta con le altre persone presenti su questa pagina',
         'chat.welcomeFirstMessageSite': 'Chatta con le altre persone presenti su questo sito',
         'chat.welcomeSecondMessage': 'Ricorda che quello che scrivi in chat è pubblico',
-        'chat.welcomeSecondMessageJWT': 'TODO',
+        'chat.welcomeSecondMessageJWT': 'Ricorda che quello che scrivi in chat potrebbe essere pubblico',
         'chat.placeholder': 'Scrivi un messaggio...',
         'chat.postBtn': 'Invia',
         'chat.tooFrequentError': 'Sei un po\' troppo veloce...\nPer favore non inondare la chat',
         'chat.blockedError': 'Ci dispiace... Questo messaggio sembra inappropriato',
-        'chat.mutedError': 'TODO',
+        'chat.mutedError': 'Ops! Sembra tu sia stato silenziato',
         'chat.abortedError': 'Accesso annullato o cookie disabilitati su questo browser',
         'chat.notPersistentError': 'L\'autenticazione non sarà ricordata a causa di impostazioni di privacy restrittive. Abilita i cookie per Now4real nel tuo browser per evitare che ciò accada.',
         'chat.signinRequired': '<a href="@href" target="_parent">Accedi</a> per chattare',
@@ -344,7 +344,7 @@ export default {
      * SPANISH (we use Spanish from Spain for all Spanish browsers)
      ***************/
     'es': {
-        'genericError': '¡Oops! Algo ha fallado',
+        'genericError': '¡UPS! Algo ha fallado',
 
         /**
          * commons
@@ -436,13 +436,13 @@ export default {
          */
         'chat.welcomeFirstMessagePage': 'Habla aquí con otras personas que están ahora en esta página',
         'chat.welcomeFirstMessageSite': 'Habla aquí con otras personas que están ahora en este sitio',
-        'chat.welcomeSecondMessage': 'Por favor, recuerda que lo que escribes en el chat es público',
-        'chat.welcomeSecondMessageJWT': 'TODO',
+        'chat.welcomeSecondMessage': 'Recuerda que lo que escribes en el chat es público',
+        'chat.welcomeSecondMessageJWT': 'Recuerda que lo que escribes en el chat puede ser público',
         'chat.placeholder': 'Escribe un mensaje...',
         'chat.postBtn': 'Publicar',
         'chat.tooFrequentError': 'Vas un poco rápido...\nPor favor, no llenes el chat',
         'chat.blockedError': 'Lo siento... Este mensaje parece inapropiado',
-        'chat.mutedError': 'TODO',
+        'chat.mutedError': '¡UPS! Parece que te han silenciado',
         'chat.abortedError': 'Inicio de sesión cancelado o cookies desactivadas en este navegador',
         'chat.notPersistentError': 'La autenticación no será recordada debido a tu configuración de privacidad restringida. Por favor, habilita las cookies para Now4real en tu navegador para evitar que esto suceda.',
         'chat.signinRequired': '<a href="@href" target="_parent">Inicia sesión</a> para hablar',
@@ -514,7 +514,7 @@ export default {
      * PORTUGUESE (we use Brazilian Portuguese for all Portuguese browsers)
      ***************/
     'pt': {
-        'genericError': 'Ops! Algo deu errado',
+        'genericError': 'Ups! Algo deu errado',
 
         /**
          * commons
@@ -607,12 +607,12 @@ export default {
         'chat.welcomeFirstMessagePage': 'Converse aqui com outras pessoas que estão nesta página agora',
         'chat.welcomeFirstMessageSite': 'Converse aqui com outras pessoas que estão neste site agora',
         'chat.welcomeSecondMessage': 'Lembre-se de que o que você escreve no chat é público',
-        'chat.welcomeSecondMessageJWT': 'TODO',
+        'chat.welcomeSecondMessageJWT': 'Lembre-se de que o que você escreve no chat pode ser público',
         'chat.placeholder': 'Escrever mensagem...',
         'chat.postBtn': 'Postar',
         'chat.tooFrequentError': 'Você está sendo\' rápido demais... \nPor favor não congestione o bate-papo',
         'chat.blockedError': 'Desculpe ... Esta mensagem parece inadequada',
-        'chat.mutedError': 'TODO',
+        'chat.mutedError': 'Ups! Parece que você foi silenciado',
         'chat.abortedError': 'Login cancelado ou cookies desativados neste navegador',
         'chat.notPersistentError': 'A autenticação não será lembrada devido às suas configurações de privacidade restritas. Ative os cookies para Now4real no seu navegador para evitar que isso aconteça.',
         'chat.signinRequired': '<a href="@href" target="_parent">Entrar</a> para conversar',
@@ -774,15 +774,15 @@ export default {
         /**
          * chat labels
          */
-        'chat.welcomeFirstMessagePage': 'Chatten Sie hier mit anderen Besucher, die jetzt auf dieser Seite sind.',
-        'chat.welcomeFirstMessageSite': 'Chatten Sie hier mit anderen Besucher, die jetzt auf dieser Webseite sind.',
-        'chat.welcomeSecondMessage': 'Bitte denken  Sie daran, dass  alles  was Sie im Chat schreiben, öffentlich ist.',
-        'chat.welcomeSecondMessageJWT': 'TODO',
+        'chat.welcomeFirstMessagePage': 'Chatten Sie hier mit anderen Besucher, die jetzt auf dieser Seite sind',
+        'chat.welcomeFirstMessageSite': 'Chatten Sie hier mit anderen Besucher, die jetzt auf dieser Webseite sind',
+        'chat.welcomeSecondMessage': 'Bitte denken Sie daran, dass alles was Sie im Chat schreiben, öffentlich ist',
+        'chat.welcomeSecondMessageJWT': 'Bitte denken Sie daran, dass das, was Sie im Chat schreiben, öffentlich ist',
         'chat.placeholder': 'Schreiben...',
         'chat.postBtn': 'Post',
         'chat.tooFrequentError': 'Sie sind ein wenig zu schnell...\nbitte nicht zu viel schreiben',
         'chat.blockedError': 'Sorry... diese Nachricht scheint unangemessen',
-        'chat.mutedError': 'TODO',
+        'chat.mutedError': 'Hoppla! Es sieht so aus, als wären Sie stummgeschaltet worden',
         'chat.abortedError': 'Anmelden abgebrochen oder Cookies in diesem Browser deaktiviert',
         'chat.notPersistentError': 'Die Authentifizierung wird aufgrund Ihrer eingeschränkten Datenschutzeinstellungen nicht gespeichert. Um dies zu verhindern, aktivieren Sie bitte die Cookies für Now4real in Ihrem Browser.',
         'chat.signinRequired': '<a href="@href" target="_parent">Melden Sie sich an</a>, um zu chatten',
