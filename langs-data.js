@@ -23,6 +23,14 @@ export default {
    'en': {
       'genericError': 'Oops! Something went wrong',
 
+      'connection-status.offline': 'You are offline',
+
+      /**
+       * Time representation
+       */
+      'hour-format': 12,
+      // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+
       /**
        * Commons
        */
@@ -34,14 +42,6 @@ export default {
       'commons.signedWith.jwt': 'Signed in on this site',
 
       'commons.close': 'Close', // close button
-
-      'generic.offline': 'You are offline',
-
-      /**
-       * Time representation
-       */
-      'hour-format': 12,
-      // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
       /**
        * Tooltips and balloons on closed widget
@@ -186,6 +186,12 @@ export default {
 
       'typing.i': '$A, $B, and $N others are typing...',
       // example: "Alex, Ben, and 3 others are typing..."
+
+      'typing.j': '$A, $B, $C, and 1 other are typing...',
+      // example: "Alex, Ben, Cindy, and 1 other are typing..."
+
+      'typing.k': '$A, $B, $C, and $N others are typing...',
+      // example: "Alex, Ben, Cindy, and 3 others are typing..."
 
       /**
        * Social login dialog
