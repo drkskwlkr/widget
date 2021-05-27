@@ -317,7 +317,7 @@ export default {
       'chat.welcomeSecondMessage.A.weeks': 'settimane',
       // example: "Please remember that your messages are public and disappear after 2 hours"
 
-      'chat.placeholder': 'Scrivi un messaggio...',
+      'chat.placeholder': 'Scrivi un messaggio',
       'chat.postBtn': 'Invia', // means "publish this message"
 
       'chat.tooFrequentError': 'Sei un po\' troppo veloce...\nPer favore non inondare la chat',
@@ -367,9 +367,9 @@ export default {
       /**
        * Typing
        */
-      'typing.a': 'Un utente sta scrivendo...',
+      'typing.a': 'Una persona sta scrivendo...',
 
-      'typing.b': '$N utenti stanno scrivendo...',
+      'typing.b': '$N persone stanno scrivendo...',
       // example: "5 people are typing..."
 
       'typing.c': '$A sta scrivendo...',
@@ -378,25 +378,25 @@ export default {
       'typing.d': '$A e $B stanno scrivendo...',
       // example: "Alex and Ben are typing..."
 
-      'typing.e': '$A, $B, e $C stanno scrivendo...',
+      'typing.e': '$A, $B e $C stanno scrivendo...',
       // example: "Alex, Ben, and Cindy are typing..."
 
-      'typing.f': '$A e un altro stanno scrivendo...',
+      'typing.f': '$A ed un\'altra persona stanno scrivendo...',
       // example: "Alex and 1 other are typing..."
 
-      'typing.g': '$A e $N altri stanno scrivendo...',
+      'typing.g': '$A e $N altre persone stanno scrivendo...',
       // example: "Alex and 3 others are typing..."
 
-      'typing.h': '$A, $B, e un altro stanno scrivendo...',
+      'typing.h': '$A, $B ed un\'altra persona stanno scrivendo...',
       // example: "Alex, Ben, and 1 other are typing..."
 
-      'typing.i': '$A, $B, e $N altri stanno scrivendo...',
+      'typing.i': '$A, $B e $N altre persone stanno scrivendo...',
       // example: "Alex, Ben, and 3 others are typing..."
 
-      'typing.j': '$A, $B, $C, e un altro stanno scrivendo...',
+      'typing.j': '$A, $B, $C ed un\'altra persona stanno scrivendo...',
       // example: "Alex, Ben, Cindy, and 1 other are typing..."
 
-      'typing.k': '$A, $B, $C, e $N altri stanno scrivendo...',
+      'typing.k': '$A, $B, $C e $N altre persone stanno scrivendo...',
       // example: "Alex, Ben, Cindy, and 3 others are typing..."
 
       /**
@@ -523,7 +523,7 @@ export default {
       'chat.welcomeSecondMessage.A.weeks': 'semanas',
       // example: "Please remember that your messages are public and disappear after 2 hours"
 
-      'chat.placeholder': 'Escribe un mensaje...',
+      'chat.placeholder': 'Escribe un mensaje',
       'chat.postBtn': 'Publicar', // means "publish this message"
 
       'chat.tooFrequentError': 'Vas un poco rápido...\nPor favor, no llenes el chat',
@@ -573,9 +573,9 @@ export default {
       /**
        * Typing
        */
-      'typing.a': '1 usuario está escribiendo...',
+      'typing.a': 'Una persona está escribiendo...',
 
-      'typing.b': '$N usuarios están escribiendo...',
+      'typing.b': '$N personas están escribiendo...',
       // example: "5 people are typing..."
 
       'typing.c': '$A está escribiendo...',
@@ -584,25 +584,25 @@ export default {
       'typing.d': '$A y $B están escribiendo...',
       // example: "Alex and Ben are typing..."
 
-      'typing.e': '$A, $B, y $C están escribiendo...',
+      'typing.e': '$A, $B y $C están escribiendo...',
       // example: "Alex, Ben, and Cindy are typing..."
 
-      'typing.f': '$A y 1 otro están escribiendo...',
+      'typing.f': '$A y otra persona están escribiendo...',
       // example: "Alex and 1 other are typing..."
 
-      'typing.g': '$A y $N otros están escribiendo...',
+      'typing.g': '$A y otras $N personas están escribiendo...',
       // example: "Alex and 3 others are typing..."
 
-      'typing.h': '$A, $B, y 1 otro están escribiendo...',
+      'typing.h': '$A, $B y otra persona están escribiendo...',
       // example: "Alex, Ben, and 1 other are typing..."
 
-      'typing.i': '$A, $B, y $N otros están escribiendo...',
+      'typing.i': '$A, $B y otras $N personas están escribiendo...',
       // example: "Alex, Ben, and 3 others are typing..."
 
-      'typing.j': '$A, $B, $C, y 1 otro están escribiendo...',
+      'typing.j': '$A, $B, $C y otra persona están escribiendo...',
       // example: "Alex, Ben, Cindy, and 1 other are typing..."
 
-      'typing.k': '$A, $B, $C, y $N otros están escribiendo...',
+      'typing.k': '$A, $B, $C y otras $N personas están escribiendo...',
       // example: "Alex, Ben, Cindy, and 3 others are typing..."
 
       /**
@@ -729,7 +729,7 @@ export default {
       'chat.welcomeSecondMessage.A.weeks': 'semanas',
       // example: "Please remember that your messages are public and disappear after 2 hours"
 
-      'chat.placeholder': 'Escrever mensagem...',
+      'chat.placeholder': 'Escrever mensagem',
       'chat.postBtn': 'Postar', // means "publish this message"
 
       'chat.tooFrequentError': 'Você está sendo\' rápido demais... \nPor favor não congestione o bate-papo',
@@ -779,9 +779,9 @@ export default {
       /**
        * Typing
        */
-      'typing.a': '1 usuário está escrevendo...',
+      'typing.a': 'Uma pessoa está escrevendo...',
 
-      'typing.b': '$N usuários estão escrevendo...',
+      'typing.b': '$N pessoas estão escrevendo...',
       // example: "5 people are typing..."
 
       'typing.c': '$A está escrevendo...',
@@ -790,25 +790,25 @@ export default {
       'typing.d': '$A e $B estão escrevendo...',
       // example: "Alex and Ben are typing..."
 
-      'typing.e': '$A, $B, e $C estão escrevendo...',
+      'typing.e': '$A, $B e $C estão escrevendo...',
       // example: "Alex, Ben, and Cindy are typing..."
 
-      'typing.f': '$A e 1 outro estão escrevendo...',
+      'typing.f': '$A e outra pessoa estão escrevendo...',
       // example: "Alex and 1 other are typing..."
 
-      'typing.g': '$A e $N outros estão escrevendo...',
+      'typing.g': '$A e $N outras pessoas estão escrevendo...',
       // example: "Alex and 3 others are typing..."
 
-      'typing.h': '$A, $B, e 1 outro estão escrevendo...',
+      'typing.h': '$A, $B e outra pessoa estão escrevendo...',
       // example: "Alex, Ben, and 1 other are typing..."
 
-      'typing.i': '$A, $B, e $N outros estão escrevendo...',
+      'typing.i': '$A, $B e $N outras pessoas estão escrevendo...',
       // example: "Alex, Ben, and 3 others are typing..."
 
-      'typing.j': '$A, $B, $C, e 1 outro estão escrevendo...',
+      'typing.j': '$A, $B, $C e outra pessoa estão escrevendo...',
       // example: "Alex, Ben, Cindy, and 1 other are typing..."
 
-      'typing.k': '$A, $B, $C, e $N outros estão escrevendo...',
+      'typing.k': '$A, $B, $C e $N outras pessoas estão escrevendo...',
       // example: "Alex, Ben, Cindy, and 3 others are typing..."
 
       /**
@@ -935,7 +935,7 @@ export default {
       'chat.welcomeSecondMessage.A.weeks': 'Wochen',
       // example: "Please remember that your messages are public and disappear after 2 hours"
 
-      'chat.placeholder': 'Schreiben...',
+      'chat.placeholder': 'Schreiben',
       'chat.postBtn': 'Post', // means "publish this message"
 
       'chat.tooFrequentError': 'Sie sind ein wenig zu schnell...\nbitte nicht zu viel schreiben',
@@ -985,9 +985,9 @@ export default {
       /**
        * Typing
        */
-      'typing.a': '1 Benutzer schreibt...',
+      'typing.a': 'Eine Person schreibt...',
 
-      'typing.b': '$N Benutzer schreiben...',
+      'typing.b': '$N Leute schreiben...',
       // example: "5 people are typing..."
 
       'typing.c': '$A schreibt...',
@@ -996,25 +996,25 @@ export default {
       'typing.d': '$A und $B schreiben...',
       // example: "Alex and Ben are typing..."
 
-      'typing.e': '$A, $B, und $C schreiben...',
+      'typing.e': '$A, $B und $C schreiben...',
       // example: "Alex, Ben, and Cindy are typing..."
 
-      'typing.f': '$A und 1 andere schreiben...',
+      'typing.f': '$A und eine andere Person schreiben...',
       // example: "Alex and 1 other are typing..."
 
-      'typing.g': '$A und $N andere schreiben...',
+      'typing.g': '$A und $N andere Leute schreiben...',
       // example: "Alex and 3 others are typing..."
 
-      'typing.h': '$A, $B, und 1 andere schreiben...',
+      'typing.h': '$A, $B und eine andere Person schreiben...',
       // example: "Alex, Ben, and 1 other are typing..."
 
-      'typing.i': '$A, $B, und $N andere schreiben...',
+      'typing.i': '$A, $B und $N andere Leute schreiben...',
       // example: "Alex, Ben, and 3 others are typing..."
 
-      'typing.j': '$A, $B, $C, und 1 andere schreiben...',
+      'typing.j': '$A, $B, $C und eine andere Person schreiben...',
       // example: "Alex, Ben, Cindy, and 1 other are typing..."
 
-      'typing.k': '$A, $B, $C, und $N andere schreiben...',
+      'typing.k': '$A, $B, $C und $N andere Leute schreiben...',
       // example: "Alex, Ben, Cindy, and 3 others are typing..."
 
       /**
