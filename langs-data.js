@@ -490,7 +490,7 @@ export default {
        */
       'mute-modal.title': 'Silenzia Utente',
 
-      'mute-modal.header': 'L\'utente $U è stato silenziato fino a $E.',
+      'mute-modal.header': 'L\'utente $U è stato silenziato fino a $E',
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
       'mute-modal.body.set': 'Silenzia l\'utente $U per:',
@@ -499,7 +499,7 @@ export default {
       'mute-modal.body.update': 'Aggiorna il periodo di silenziamento:',
       // example: "Update mute period:" followed by input fields with "5 days"    
       
-      'mute-modal.body.deleteAlert': 'Stai rimuovendo il silenziamento per l\'utente.',
+      'mute-modal.body.deleteAlert': 'Stai rimuovendo il silenziamento per l\'utente',
 
       'mute-modal.button': 'Conferma'
    },
