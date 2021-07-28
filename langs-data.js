@@ -55,11 +55,15 @@ export default {
        * Menu
        */
       'status-header.options': 'Options',
+      'status-header.flushChat': 'Flush this chat',
+      'status-header.disableChat': 'Disable this chat',
+      'status-header.enableChat': 'Enable this chat',
       'status-header.help': 'Help',
       'status-header.issue': 'Report an Issue',
       'status-header.terms': 'Terms of Service',
       'status-header.privacy': 'Privacy Policy',
       'status-header.signout': 'Sign out',
+      'status-header.signin': 'Sign in',
 
       'status-header.notRememberedLogin': 'Not remembered',
       // means that the login status is temporary and will not be remembered next time
@@ -111,6 +115,13 @@ export default {
       'chat.welcomeSecondMessage.A.weeks': 'weeks',
       // example: "Please remember that your messages are public and disappear after 2 hours"
 
+      'chat.messageDeleted.byYou': 'You deleted this message',
+      'chat.messageDeleted.byAuthor': 'Message deleted by the author',
+      'chat.messageDeleted.byModerator': 'Message deleted by a moderator',
+      'chat.messageDeleted.byAdmin': 'Message deleted by the admin',
+      'chat.messageDeleted.byNow4real': 'Message deleted by the admin',
+      'chat.messageDeleted.unknown': 'Message deleted',
+
       'chat.placeholder': 'Type a message',
       'chat.postBtn': 'Post', // means "publish this message"
 
@@ -121,7 +132,10 @@ export default {
       'chat.abortedError': 'Sign-in canceled or cookies disabled on this browser',
       'chat.mutedError': 'Oops! It looks like you have been muted',
       'chat.notPersistentError': 'The authentication will not be remembered due to your restricted privacy settings. Please enable cookies for Now4real in your browser to prevent this from happening.',
+      'chat.disabledError': 'This chat has been disabled',
 
+      'chat.disabledByAdmin': 'This chat has been disabled by the admin',
+      'chat.disabledByModerator': 'This chat has been disabled by a moderator',
       'chat.signinRequired': '<a>Sign in</a> to chat',
       // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
@@ -130,6 +144,7 @@ export default {
       // below are the actions on messages that appear in a contextual menu
       'chat.replyBtn': 'Reply',
       'chat.deleteBtn': 'Delete',
+      'chat.muteBtn': 'Mute',
 
       /**
        * Presence
@@ -215,12 +230,31 @@ export default {
        */
       'jwt-modal.title': 'Consent',
 
-
       'jwt-modal.header': 'To start chatting you should accept the <a1>Terms of Service</a1> and the <a2>Privacy Policy</a2> of Now4real (the chat service)',
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-      'jwt-modal.button': 'Accept'
+      'jwt-modal.button': 'Accept',
+
+      /**
+       * Mute dialog
+       */
+      'mute-modal.title': 'Mute User',
+
+      'mute-modal.header': 'The user $U is muted until $E.',
+
+      'mute-modal.body.set': 'Mute the user $U for:',
+      'mute-modal.body.update': 'Update mute period:',
+      'mute-modal.body.deleteAlert': 'You are deleting the mute.',
+
+      'mute-modal.body.unit.minutes': 'minutes',
+      'mute-modal.body.unit.hours': 'hours',
+      'mute-modal.body.unit.days': 'days',
+      'mute-modal.body.unit.weeks': 'weeks',
+      'mute-modal.body.unit.months': 'months',
+      'mute-modal.body.unit.years': 'years',
+
+      'mute-modal.button': 'Confirm'
    },
 
    /****************************************************************************************
@@ -261,11 +295,15 @@ export default {
        * Menu
        */
       'status-header.options': 'Opzioni',
+      'status-header.flushChat': 'Svuota questa chat',
+      'status-header.disableChat': 'Disattiva questa chat',
+      'status-header.enableChat': 'Attiva questa chat',
       'status-header.help': 'Aiuto',
       'status-header.issue': 'Segnala un problema',
       'status-header.terms': 'Condizioni di servizio',
       'status-header.privacy': 'Privacy policy',
       'status-header.signout': 'Disconnetti',
+      'status-header.signin': 'Accedi',
 
       'status-header.notRememberedLogin': 'Provvisoriamente',
       // means that the login status is temporary and will not be remembered next time
@@ -317,6 +355,13 @@ export default {
       'chat.welcomeSecondMessage.A.weeks': 'settimane',
       // example: "Please remember that your messages are public and disappear after 2 hours"
 
+      'chat.messageDeleted.byYou': 'Hai cancellato questo messaggio',
+      'chat.messageDeleted.byAuthor': 'Messaggio cancellato dall\'autore',
+      'chat.messageDeleted.byModerator': 'Messaggio cancellato da un moderatore',
+      'chat.messageDeleted.byAdmin': 'Messaggio cancellato dall\'amministratore',
+      'chat.messageDeleted.byNow4real': 'Messaggio cancellato dall\'amministratore',
+      'chat.messageDeleted.unknown': 'Messaggio cancellato',
+
       'chat.placeholder': 'Scrivi un messaggio',
       'chat.postBtn': 'Invia', // means "publish this message"
 
@@ -327,15 +372,19 @@ export default {
       'chat.abortedError': 'Accesso annullato o cookie disabilitati su questo browser',
       'chat.mutedError': 'Ops! Sembra tu sia stato silenziato',
       'chat.notPersistentError': 'L\'autenticazione non sarà ricordata a causa di impostazioni di privacy restrittive. Abilita i cookie per Now4real nel tuo browser per evitare che ciò accada.',
+      'chat.disabledError': 'Questa chat è stata disabilitata',
 
       'chat.signinRequired': '<a>Accedi</a> per chattare',
       // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
+      'chat.disabledByAdmin': 'Questa chat è stata disabilitata dall\'amministratore',
+      'chat.disabledByModerator': 'Questa chat è stata disabilitata da un moderatore',
       'chat.viewOnly': 'Sola lettura',
 
       // below are the actions on messages that appear in a contextual menu
       'chat.replyBtn': 'Rispondi',
       'chat.deleteBtn': 'Elimina',
+      'chat.muteBtn': 'Silenzia',
 
       /**
        * Presence
@@ -421,12 +470,31 @@ export default {
        */
       'jwt-modal.title': 'Consenso',
 
-
       'jwt-modal.header': 'Per iniziare a chattare devi accettare le <a1>Condizioni di servizio</a1> e la <a2>Privacy policy</a2> di Now4real (il servizio di chat)',
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-      'jwt-modal.button': 'Accetto'
+      'jwt-modal.button': 'Accetto',
+
+      /**
+       * Mute dialog
+       */
+      'mute-modal.title': 'Silenzia Utente',
+
+      'mute-modal.header': 'L\'utente $U è stato silenziato fino a $E.',
+
+      'mute-modal.body.set': 'Silenzia l\'utente $U per:',
+      'mute-modal.body.update': 'Aggiorna il periodo di silenziamento:',
+      'mute-modal.body.deleteAlert': 'Stai rimuovendo il silenziamento per l\'utente.',
+
+      'mute-modal.body.unit.minutes': 'minuti',
+      'mute-modal.body.unit.hours': 'ore',
+      'mute-modal.body.unit.days': 'giorni',
+      'mute-modal.body.unit.weeks': 'settimane',
+      'mute-modal.body.unit.months': 'mesi',
+      'mute-modal.body.unit.years': 'anni',
+
+      'mute-modal.button': 'Conferma'
    },
 
    /****************************************************************************************
@@ -626,7 +694,6 @@ export default {
        * JWT login dialog
        */
       'jwt-modal.title': 'Consentimiento',
-
 
       'jwt-modal.header': 'Para empezar a hablar debes aceptar los <a1>Términos del Servicio</a1> y la <a2>Política de Privacidad</a2> de Now4real (el servicio de chat)',
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
@@ -833,7 +900,6 @@ export default {
        */
       'jwt-modal.title': 'Consentimento',
 
-
       'jwt-modal.header': 'Para começar a conversar você deve aceitar os <a1>Termos de Serviço</a1> e a <a2>Política de Privacidade</a2> de Now4real (o serviço de chat)',
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
@@ -1038,7 +1104,6 @@ export default {
        * JWT login dialog
        */
       'jwt-modal.title': 'Zustimmung',
-
 
       'jwt-modal.header': 'Um mit dem Chatten zu beginnen, sollen Sie die <a1>Nutzungsbedingungen</a1> und die <a2>Datenschutzbestimmungen</a2> von Now4real (der chat service)',
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
@@ -1245,11 +1310,215 @@ export default {
        */
       'jwt-modal.title': 'Zgoda',
 
-
       'jwt-modal.header': 'Aby zacząc rozmawiać zaakceptuj <a1>Regulamin</a1> i <a2>Politykę Prywatności</a2> Now4real (operatora czatu)',
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
       'jwt-modal.button': 'Akceptuję'
+   },
+
+   /****************************************************************************************
+    * ROMANIAN
+    ****************************************************************************************/
+   'ro': {
+      'genericError': 'Ups! Ceva este in neregula',
+
+      'connection-status.offline': 'Esti offline',
+
+      /**
+       * Time representation
+       */
+      'hour-format': 12,
+      // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+
+      /**
+       * Commons
+       */
+      'commons.signedWith.google': 'Intra cu Google',
+      'commons.signedWith.facebook': 'Intra cu Facebook',
+      'commons.signedWith.twitter': 'Intra cu Twitter',
+      'commons.signedWith.linkedin': 'Intra cu LinkedIn',
+      'commons.signedWith.email': 'Intra cu adresa de email',
+      'commons.signedWith.jwt': 'Intra pe acest site',
+
+      'commons.close': 'Inchide', // close button
+
+      /**
+       * Tooltips and balloons on closed widget
+       */
+      'monitor.pageViewersTitle': 'Persoane care sunt pe pagina',
+      'monitor.siteViewersTitle': 'Persoane care sunt pe site',
+      'monitor.chatBalloon': 'CHAT', // keep upper case, if applicable
+      'monitor.presenceBalloon': 'Persoane active acum',
+
+      /**
+       * Menu
+       */
+      'status-header.options': 'Optiuni',
+      'status-header.help': 'Ajutor',
+      'status-header.issue': 'Raporteaza problema',
+      'status-header.terms': 'Termene si conditii',
+      'status-header.privacy': 'Politica de confidențialitate',
+      'status-header.signout': 'Ieșire',
+
+      'status-header.notRememberedLogin': 'Nu-mi amintesc',
+      // means that the login status is temporary and will not be remembered next time
+
+      /**
+       * Tab labels and tooltips
+       */
+      'tab.chatTabLabel': 'CHAT', // max 8 characters; keep upper case, if applicable
+      'tab.chatTitlePage': 'Chat in timp real cu ceilalti vizitatori de pe pagina',
+      'tab.chatTitleSite': 'Chat in timp real cu ceilalti vizitatori de pe site',
+
+      'tab.rankingTabLabel': 'PAGINI', // max 8 characters; keep upper case, if applicable
+      'tab.rankingTitle': 'Pagini vizualizate acum',
+
+      'tab.heatmapTabLabel': 'HARTA', // max 8 characters; keep upper case, if applicable
+      'tab.heatmapTitle': 'De unde sunt persoanele',
+
+      /**
+       * Heatmap
+       */
+      'heatmap.pageSwitchLabel': 'PAGINA', // max 12 characters; keep upper case, if applicable
+      'heatmap.siteSwitchLabel': 'SITE', // max 12 characters; keep upper case, if applicable
+      'heatmap.empty': 'Fara date',
+
+      /**
+       * Ranking
+       */
+      'ranking.foregroundTitle': 'Persoane pe site',
+      'ranking.activeTitle': 'Persoane care discuta pe site',
+      'ranking.foregroundSwitchLabel': 'VIZITATORI', // max 12 characters; keep upper case, if applicable
+      'ranking.activeSwitchLabel': 'Cei care discuta', // max 12 characters; keep upper case, if applicable
+      'ranking.empty': 'Fara date',
+      'ranking.currentPage': 'Pagina curenta',
+
+      'ranking.note': 'Primele 10 pagini',
+      // note added to the end to the ranking list to explain that only the top ten pages are shown
+
+      /**
+       * Chat
+       */
+      'chat.welcomeFirstMessagePage': 'Chat in timp real cu vizitatorii acestei pagini',
+      'chat.welcomeFirstMessageSite': 'Chat in timp real cu vizitatorii site-ului',
+
+      'chat.welcomeSecondMessage': 'Mesajele tale sunt publice si dispar dupa $N $A',
+      'chat.welcomeSecondMessageJWT': 'Mesajele tale sunt publice si dispar dupa $N $A',
+      'chat.welcomeSecondMessage.A.minutes': 'minute',
+      'chat.welcomeSecondMessage.A.hours': 'ore',
+      'chat.welcomeSecondMessage.A.days': 'zile',
+      'chat.welcomeSecondMessage.A.weeks': 'saptamani',
+      // example: "Please remember that your messages are public and disappear after 2 hours"
+
+      'chat.placeholder': 'Scrie mesajul',
+      'chat.postBtn': 'Publica', // means "publica mesajul tau"
+
+      'chat.tooFrequentError': 'Prea repede ...\nTe rog nu inunda chat-ul cu prea multe mesaje',
+      // \n means to break the line; \' distinguishes the apostrophe from the final apex
+
+      'chat.blockedError': 'Imi pare rau... Acest mesaj este considerat nepotrivit',
+      'chat.abortedError': 'Intrare esuata sau cookie nu sunt permise in acest browser',
+      'chat.mutedError': 'Ups! Se pare ca nu poti publica inca',
+      'chat.notPersistentError': 'Autetificarea nu este posibila deoarece ai setari ridicate de mentinere a intimitatii. Permite acum browser-ului cookie de la Now4real.',
+
+      'chat.signinRequired': '<a>Intra in</a> to chat',
+      // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+      'chat.viewOnly': 'Doar vizualizare',
+
+      // below are the actions on messages that appear in a contextual menu
+      'chat.replyBtn': 'Raspunde',
+      'chat.deleteBtn': 'Stergere',
+
+      /**
+       * Presence
+       */
+      'presence.all.a': '1 persoana pe pagina (din $N pe site)',
+      // example: "1 person on this page (of 23 on this site)"
+
+      'presence.all.b': '$N persoane pe pagina (din $M pe site)',
+      // example: "5 people on this page (of 23 on this site)"
+
+      'presence.page.a': '1 persoana pe pagina',
+      'presence.page.b': '$N persoane pe pagina',
+
+      'presence.site.a': '1 persoana pe site',
+      'presence.site.b': '$N persoane pe site',
+
+      /**
+       * Emoji-picker labels
+       */
+      'emoji-picker.people': 'Persoane',
+      'emoji-picker.nature': 'Natura',
+      'emoji-picker.food': 'Mancare',
+      'emoji-picker.activity': 'Activitati',
+      'emoji-picker.travel': 'Locuri',
+      'emoji-picker.objects': 'Obiecte',
+      'emoji-picker.symbols': 'Simboluri',
+      'emoji-picker.flags': 'Steaguri',
+
+      /**
+       * Typing
+       */
+      'typing.a': '1 persoana scrie...',
+
+      'typing.b': '$N persoane scriu...',
+      // example: "5 people are typing..."
+
+      'typing.c': '$A scrie...',
+      // example: "Alex is typing..."
+
+      'typing.d': '$A si $B scriu...',
+      // example: "Alex and Ben are typing..."
+
+      'typing.e': '$A, $B si $C scriu...',
+      // example: "Alex, Ben, and Cindy are typing..."
+
+      'typing.f': '$A si o alta peroana scriu...',
+      // example: "Alex and 1 other are typing..."
+
+      'typing.g': '$A si altele $N scriu...',
+      // example: "Alex and 3 others are typing..."
+
+      'typing.h': '$A, $B, si inca cineva scriu...',
+      // example: "Alex, Ben, and 1 other are typing..."
+
+      'typing.i': '$A, $B, si alti $N scriu...',
+      // example: "Alex, Ben, and 3 others are typing..."
+
+      'typing.j': '$A, $B, $C, si inca cineva scriu...',
+      // example: "Alex, Ben, Cindy, and 1 other are typing..."
+
+      'typing.k': '$A, $B, $C, si alti $N scriu...',
+      // example: "Alex, Ben, Cindy, and 3 others are typing..."
+
+      /**
+       * Social login dialog
+       */
+      'social-modal.title': 'Intra',
+      'social-modal.header': 'Incepe discutia cu toti cei care folosesc Now4real',
+
+      // buttons:
+      'social-modal.google': 'Intra cu Google',
+      'social-modal.facebook': 'Intra cu Facebook',
+      'social-modal.twitter': 'Intra cu Twitter',
+      'social-modal.linkedin': 'Intra cu LinkedIn',
+      'social-modal.email': 'Intra cu email',
+
+      'social-modal.footer': 'Apasa pe “Intra” ca sa accepti <a1>Termene si Servicii</a1> si <a2>Politica de Confidentialitate</a2> de pe acest site si Now4real',
+      // keep <a1> and </a1> unchanged and surrounding the translation of "Termene si Servicii"
+      // keep <a2> and </a2> unchanged and surrounding the translation of "Politica de Confidentialitate"
+
+      /**
+       * JWT login dialog
+       */
+      'jwt-modal.title': 'Consimtamant',
+
+      'jwt-modal.header': 'Pentru a discuta trebuie sa accepti <a1>Termene si Servicii</a1> and the <a2>Politica de Confidentialitate</a2> de la acest site si Now4real',
+      // keep <a1> and </a1> unchanged and surrounding the translation of "Termene si Servicii"
+      // keep <a2> and </a2> unchanged and surrounding the translation of "Politica de Confidentialitate"
+
+      'jwt-modal.button': 'Accept'
    }
 }
