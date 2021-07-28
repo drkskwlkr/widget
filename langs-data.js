@@ -1,6 +1,6 @@
 /*
    RULES FOR TRANSLATORS
-   - Clone the ENGLISH ('en') blog and change 'en' to the target language code.
+   - Clone the ENGLISH ('en') block and change 'en' to the target language code.
    - All the text after symbols /* and // are comments and must not be translated.
    - Please read the comments to understand the context of the translation.
    - For each row, only the text after the colon (:) must be translated.
@@ -22,7 +22,6 @@ export default {
    /****************************************************************************************
     * ENGLISH (American)
     ****************************************************************************************/
-
    'en': {
       'genericError': 'Oops! Something went wrong',
 
@@ -31,7 +30,7 @@ export default {
       /**
        * Time representation
        */
-      'hour-format': 12,
+      'hourFormat': 12,
       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
       'timeUnit.minutes': 'minutes',
@@ -253,10 +252,10 @@ export default {
 
       'mute-modal.body.set': 'Mute user $U for:',
       // example: "Mute user Ben for:" followed by input fields with "3 days"
-      
+
       'mute-modal.body.update': 'Update mute period:',
-      // example: "Update mute period:" followed by input fields with "5 days"    
-      
+      // example: "Update mute period:" followed by input fields with "5 days"
+
       'mute-modal.body.deleteAlert': 'You are unmuting the user',
 
       'mute-modal.button': 'Confirm'
@@ -273,9 +272,9 @@ export default {
       /**
        * Time representation
        */
-      'hour-format': 24,
+      'hourFormat': 24,
       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
-      
+
       'timeUnit.minutes': 'minuti',
       'timeUnit.hours': 'ore',
       'timeUnit.days': 'giorni',
@@ -495,10 +494,10 @@ export default {
 
       'mute-modal.body.set': 'Silenzia l\'utente $U per:',
       // example: "Mute user Ben for:" followed by input fields with "3 days"
-      
+
       'mute-modal.body.update': 'Aggiorna il periodo di silenziamento:',
-      // example: "Update mute period:" followed by input fields with "5 days"    
-      
+      // example: "Update mute period:" followed by input fields with "5 days"
+
       'mute-modal.body.deleteAlert': 'Stai rimuovendo il silenziamento per l\'utente',
 
       'mute-modal.button': 'Conferma'
@@ -515,8 +514,15 @@ export default {
       /**
        * Time representation
        */
-      'hour-format': 24,
+      'hourFormat': 24,
       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+
+      'timeUnit.minutes': 'minutos',
+      'timeUnit.hours': 'horas',
+      'timeUnit.days': 'dias',
+      'timeUnit.weeks': 'semanas',
+      'timeUnit.months': 'meses',
+      'timeUnit.years': 'años',
 
       /**
        * Commons
@@ -542,11 +548,15 @@ export default {
        * Menu
        */
       'status-header.options': 'Opciones',
+      'status-header.flushChat': 'Flush this chat', // TODO
+      'status-header.disableChat': 'Disable this chat', // TODO
+      'status-header.enableChat': 'Enable this chat', // TODO
       'status-header.help': 'Ayuda',
       'status-header.issue': 'Informa de un Problema',
       'status-header.terms': 'Términos del Servicio',
       'status-header.privacy': 'Política de Privacidad',
       'status-header.signout': 'Cerrar Sesión',
+      'status-header.signin': 'Sign in', // TODO
 
       'status-header.notRememberedLogin': 'Sin recordar',
       // means that the login status is temporary and will not be remembered next time
@@ -592,11 +602,15 @@ export default {
 
       'chat.welcomeSecondMessage': 'Recuerda que lo que escribes en el chat es público y desaparece a los $N $A',
       'chat.welcomeSecondMessageJWT': 'Recuerda que lo que escribes en el chat puede ser público y desaparece a los $N $A',
-      'chat.welcomeSecondMessage.A.minutes': 'minutos',
-      'chat.welcomeSecondMessage.A.hours': 'horas',
-      'chat.welcomeSecondMessage.A.days': 'dias',
-      'chat.welcomeSecondMessage.A.weeks': 'semanas',
+      // $N is a number and $A in a time unit taken from timeUnit.
       // example: "Please remember that your messages are public and disappear after 2 hours"
+
+      'chat.messageDeleted.byYou': 'You deleted this message', // TODO
+      'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
+      'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
+      'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.unknown': 'Message deleted', // TODO
 
       'chat.placeholder': 'Escribe un mensaje',
       'chat.postBtn': 'Publicar', // means "publish this message"
@@ -608,15 +622,19 @@ export default {
       'chat.abortedError': 'Inicio de sesión cancelado o cookies desactivadas en este navegador',
       'chat.mutedError': '¡UPS! Parece que te han silenciado',
       'chat.notPersistentError': 'La autenticación no será recordada debido a tu configuración de privacidad restringida. Por favor, habilita las cookies para Now4real en tu navegador para evitar que esto suceda.',
+      'chat.disabledError': 'This chat has been disabled', // TODO
 
+      'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
+      'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
       'chat.signinRequired': '<a>Inicia sesión</a> para hablar',
       // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
       'chat.viewOnly': 'Solo lectura',
 
       // below are the actions on messages that appear in a contextual menu
-      'chat.replyBtn': 'Responder',
-      'chat.deleteBtn': 'Eliminar',
+      'chat.replyBtn': 'Responder', // means "reply to this message"
+      'chat.deleteBtn': 'Eliminar', // means "delete this message"
+      'chat.muteBtn': 'Mute', // means "mute this user" // TODO
 
       /**
        * Presence
@@ -706,7 +724,25 @@ export default {
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-      'jwt-modal.button': 'Acepto'
+      'jwt-modal.button': 'Acepto',
+
+      /**
+       * Mute dialog
+       */
+      'mute-modal.title': 'Mute User', // TODO
+
+      'mute-modal.header': 'User $U has been muted until $E', // TODO
+      // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+
+      'mute-modal.body.set': 'Mute user $U for:', // TODO
+      // example: "Mute user Ben for:" followed by input fields with "3 days"
+
+      'mute-modal.body.update': 'Update mute period:', // TODO
+      // example: "Update mute period:" followed by input fields with "5 days"
+
+      'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+
+      'mute-modal.button': 'Confirm' // TODO
    },
 
    /****************************************************************************************
@@ -720,8 +756,15 @@ export default {
       /**
        * Time representation
        */
-      'hour-format': 24,
+      'hourFormat': 24,
       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+
+      'timeUnit.minutes': 'minutos',
+      'timeUnit.hours': 'horas',
+      'timeUnit.days': 'dias',
+      'timeUnit.weeks': 'semanas',
+      'timeUnit.months': 'meses',
+      'timeUnit.years': 'anos',
 
       /**
        * Commons
@@ -747,11 +790,15 @@ export default {
        * Menu
        */
       'status-header.options': 'Opções',
+      'status-header.flushChat': 'Flush this chat', // TODO
+      'status-header.disableChat': 'Disable this chat', // TODO
+      'status-header.enableChat': 'Enable this chat', // TODO
       'status-header.help': 'Ajuda',
       'status-header.issue': 'Reportar um problema',
       'status-header.terms': 'Termos de Serviço',
       'status-header.privacy': 'Política de Privacidade',
       'status-header.signout': 'Sair',
+      'status-header.signin': 'Sign in', // TODO
 
       'status-header.notRememberedLogin': 'Não será lembrado',
       // means that the login status is temporary and will not be remembered next time
@@ -797,11 +844,15 @@ export default {
 
       'chat.welcomeSecondMessage': 'Lembre-se de que o que você escreve no chat é público e desaparece após $N $A',
       'chat.welcomeSecondMessageJWT': 'Lembre-se de que o que você escreve no chat pode ser público e desaparece após $N $A',
-      'chat.welcomeSecondMessage.A.minutes': 'minutos',
-      'chat.welcomeSecondMessage.A.hours': 'horas',
-      'chat.welcomeSecondMessage.A.days': 'dias',
-      'chat.welcomeSecondMessage.A.weeks': 'semanas',
+      // $N is a number and $A in a time unit taken from timeUnit.
       // example: "Please remember that your messages are public and disappear after 2 hours"
+
+      'chat.messageDeleted.byYou': 'You deleted this message', // TODO
+      'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
+      'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
+      'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.unknown': 'Message deleted', // TODO
 
       'chat.placeholder': 'Escrever mensagem',
       'chat.postBtn': 'Postar', // means "publish this message"
@@ -813,15 +864,19 @@ export default {
       'chat.abortedError': 'Login cancelado ou cookies desativados neste navegador',
       'chat.mutedError': 'Ups! Parece que você foi silenciado',
       'chat.notPersistentError': 'A autenticação não será lembrada devido às suas configurações de privacidade restritas. Ative os cookies para Now4real no seu navegador para evitar que isso aconteça.',
+      'chat.disabledError': 'This chat has been disabled', // TODO
 
+      'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
+      'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
       'chat.signinRequired': '<a>Entrar</a> para conversar',
       // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
       'chat.viewOnly': 'Somente leitura',
 
       // below are the actions on messages that appear in a contextual menu
-      'chat.replyBtn': 'Responder',
-      'chat.deleteBtn': 'Excluir',
+      'chat.replyBtn': 'Responder', // means "reply to this message"
+      'chat.deleteBtn': 'Excluir', // means "delete this message"
+      'chat.muteBtn': 'Mute', // means "mute this user" // TODO
 
       /**
        * Presence
@@ -911,7 +966,25 @@ export default {
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-      'jwt-modal.button': 'Acetair'
+      'jwt-modal.button': 'Acetair',
+
+      /**
+       * Mute dialog
+       */
+      'mute-modal.title': 'Mute User', // TODO
+
+      'mute-modal.header': 'User $U has been muted until $E', // TODO
+      // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+
+      'mute-modal.body.set': 'Mute user $U for:', // TODO
+      // example: "Mute user Ben for:" followed by input fields with "3 days"
+
+      'mute-modal.body.update': 'Update mute period:', // TODO
+      // example: "Update mute period:" followed by input fields with "5 days"
+
+      'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+
+      'mute-modal.button': 'Confirm' // TODO
    },
 
    /****************************************************************************************
@@ -925,8 +998,15 @@ export default {
       /**
        * Time representation
        */
-      'hour-format': 24,
+      'hourFormat': 24,
       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+
+      'timeUnit.minutes': 'Protokoll',
+      'timeUnit.hours': 'Std',
+      'timeUnit.days': 'Tage',
+      'timeUnit.weeks': 'Wochen',
+      'timeUnit.months': 'Monate',
+      'timeUnit.years': 'Jahre',
 
       /**
        * Commons
@@ -952,11 +1032,15 @@ export default {
        * Menu
        */
       'status-header.options': 'Optionen',
+      'status-header.flushChat': 'Flush this chat', // TODO
+      'status-header.disableChat': 'Disable this chat', // TODO
+      'status-header.enableChat': 'Enable this chat', // TODO
       'status-header.help': 'Hilfe',
       'status-header.issue': 'Ein Problem melden',
       'status-header.terms': 'Nutzungsbedingungen',
       'status-header.privacy': 'Datenschutz-Bestimmungen',
       'status-header.signout': 'Ausloggen',
+      'status-header.signin': 'Sign in', // TODO
 
       'status-header.notRememberedLogin': 'Nicht gespeichert',
       // means that the login status is temporary and will not be remembered next time
@@ -1002,11 +1086,15 @@ export default {
 
       'chat.welcomeSecondMessage': 'Bitte denken Sie daran, dass alles, was Sie im Chat schreiben, öffentlich ist und nach $N $A verschwindet',
       'chat.welcomeSecondMessageJWT': 'Bitte denken Sie daran, dass das, was Sie im Chat schreiben, möglicherweise öffentlich ist und nach $N $A verschwindet',
-      'chat.welcomeSecondMessage.A.minutes': 'Protokoll',
-      'chat.welcomeSecondMessage.A.hours': 'Std',
-      'chat.welcomeSecondMessage.A.days': 'Tage',
-      'chat.welcomeSecondMessage.A.weeks': 'Wochen',
+      // $N is a number and $A in a time unit taken from timeUnit.
       // example: "Please remember that your messages are public and disappear after 2 hours"
+
+      'chat.messageDeleted.byYou': 'You deleted this message', // TODO
+      'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
+      'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
+      'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.unknown': 'Message deleted', // TODO
 
       'chat.placeholder': 'Schreiben',
       'chat.postBtn': 'Post', // means "publish this message"
@@ -1018,15 +1106,19 @@ export default {
       'chat.abortedError': 'Anmelden abgebrochen oder Cookies in diesem Browser deaktiviert',
       'chat.mutedError': 'Hoppla! Es sieht so aus, als wären Sie stummgeschaltet worden',
       'chat.notPersistentError': 'Die Authentifizierung wird aufgrund Ihrer eingeschränkten Datenschutzeinstellungen nicht gespeichert. Um dies zu verhindern, aktivieren Sie bitte die Cookies für Now4real in Ihrem Browser.',
+      'chat.disabledError': 'This chat has been disabled', // TODO
 
+      'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
+      'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
       'chat.signinRequired': '<a>Melden Sie sich an</a>, um zu chatten',
       // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
       'chat.viewOnly': 'Nur Betrachter -Modus',
 
       // below are the actions on messages that appear in a contextual menu
-      'chat.replyBtn': 'Antworten',
-      'chat.deleteBtn': 'Löschen',
+      'chat.replyBtn': 'Antworten', // means "reply to this message"
+      'chat.deleteBtn': 'Löschen', // means "delete this message"
+      'chat.muteBtn': 'Mute', // means "mute this user" // TODO
 
       /**
        * Presence
@@ -1116,7 +1208,25 @@ export default {
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-      'jwt-modal.button': 'Akzeptieren'
+      'jwt-modal.button': 'Akzeptieren',
+
+      /**
+       * Mute dialog
+       */
+      'mute-modal.title': 'Mute User', // TODO
+
+      'mute-modal.header': 'User $U has been muted until $E', // TODO
+      // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+
+      'mute-modal.body.set': 'Mute user $U for:', // TODO
+      // example: "Mute user Ben for:" followed by input fields with "3 days"
+
+      'mute-modal.body.update': 'Update mute period:', // TODO
+      // example: "Update mute period:" followed by input fields with "5 days"
+
+      'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+
+      'mute-modal.button': 'Confirm' // TODO
    },
 
    /****************************************************************************************
@@ -1130,8 +1240,15 @@ export default {
       /**
        * Time representation
        */
-      'hour-format': 24,
+      'hourFormat': 24,
       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+
+      'timeUnit.minutes': 'minutach',
+      'timeUnit.hours': 'godzinach',
+      'timeUnit.days': 'dniach',
+      'timeUnit.weeks': 'tygodniach',
+      'timeUnit.months': 'miesiące',
+      'timeUnit.years': 'lat',
 
       /**
        * Commons
@@ -1157,11 +1274,15 @@ export default {
        * Menu
        */
       'status-header.options': 'Opcje',
+      'status-header.flushChat': 'Flush this chat', // TODO
+      'status-header.disableChat': 'Disable this chat', // TODO
+      'status-header.enableChat': 'Enable this chat', // TODO
       'status-header.help': 'Pomoc',
       'status-header.issue': 'Zgłoś błąd',
       'status-header.terms': 'Regulamin',
       'status-header.privacy': 'Polityka Prywatności',
       'status-header.signout': 'Wyloguj się',
+      'status-header.signin': 'Sign in', // TODO
 
       'status-header.notRememberedLogin': 'Nie zapamiętany',
       // means that the login status is temporary and will not be remembered next time
@@ -1207,11 +1328,15 @@ export default {
 
       'chat.welcomeSecondMessage': 'Pamiętaj, że Twoje wiadomości są publiczne i znikają po $N $A',
       'chat.welcomeSecondMessageJWT': 'Pamiętaj, że Twoje wiadomości mogą być publiczne i zniknąć po $N $A',
-      'chat.welcomeSecondMessage.A.minutes': 'minutach',
-      'chat.welcomeSecondMessage.A.hours': 'godzinach',
-      'chat.welcomeSecondMessage.A.days': 'dniach',
-      'chat.welcomeSecondMessage.A.weeks': 'tygodniach',
+      // $N is a number and $A in a time unit taken from timeUnit.
       // example: "Please remember that your messages are public and disappear after 2 hours"
+
+      'chat.messageDeleted.byYou': 'You deleted this message', // TODO
+      'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
+      'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
+      'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.unknown': 'Message deleted', // TODO
 
       'chat.placeholder': 'Wpisz wiadomość',
       'chat.postBtn': 'Wyślij', // means "publish this message"
@@ -1223,15 +1348,19 @@ export default {
       'chat.abortedError': 'Nie można się zalogować lub ciasteczka są wyłączone w Twojej przeglądarce',
       'chat.mutedError': 'Oops! Wygląda na to, że zostałeś wyciszony',
       'chat.notPersistentError': 'Uwierzytelnienie nie zostanie zapamiętane ze względu na Twoje ustawienia prywatności. Prosimy włączyć obsługę plików cookie w swojej przeglądarce, aby temu zapobiec.',
+      'chat.disabledError': 'This chat has been disabled', // TODO
 
+      'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
+      'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
       'chat.signinRequired': '<a>Zaloguj się</a> aby rozmawiać',
       // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
       'chat.viewOnly': 'Tryb podglądu',
 
       // below are the actions on messages that appear in a contextual menu
-      'chat.replyBtn': 'Odpowiedz',
-      'chat.deleteBtn': 'Usuń',
+      'chat.replyBtn': 'Odpowiedz', // means "reply to this message"
+      'chat.deleteBtn': 'Usuń', // means "delete this message"
+      'chat.muteBtn': 'Mute', // means "mute this user" // TODO
 
       /**
        * Presence
@@ -1321,7 +1450,25 @@ export default {
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-      'jwt-modal.button': 'Akceptuję'
+      'jwt-modal.button': 'Akceptuję',
+
+      /**
+       * Mute dialog
+       */
+      'mute-modal.title': 'Mute User', // TODO
+
+      'mute-modal.header': 'User $U has been muted until $E', // TODO
+      // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+
+      'mute-modal.body.set': 'Mute user $U for:', // TODO
+      // example: "Mute user Ben for:" followed by input fields with "3 days"
+
+      'mute-modal.body.update': 'Update mute period:', // TODO
+      // example: "Update mute period:" followed by input fields with "5 days"
+
+      'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+
+      'mute-modal.button': 'Confirm' // TODO
    },
 
    /****************************************************************************************
@@ -1335,8 +1482,15 @@ export default {
       /**
        * Time representation
        */
-      'hour-format': 12,
+      'hourFormat': 12,
       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+
+      'timeUnit.minutes': 'minute',
+      'timeUnit.hours': 'ore',
+      'timeUnit.days': 'zile',
+      'timeUnit.weeks': 'saptamani',
+      'timeUnit.months': 'luni',
+      'timeUnit.years': 'ani',
 
       /**
        * Commons
@@ -1362,11 +1516,15 @@ export default {
        * Menu
        */
       'status-header.options': 'Optiuni',
+      'status-header.flushChat': 'Flush this chat', // TODO
+      'status-header.disableChat': 'Disable this chat', // TODO
+      'status-header.enableChat': 'Enable this chat', // TODO
       'status-header.help': 'Ajutor',
       'status-header.issue': 'Raporteaza problema',
       'status-header.terms': 'Termene si conditii',
       'status-header.privacy': 'Politica de confidențialitate',
       'status-header.signout': 'Ieșire',
+      'status-header.signin': 'Sign in', // TODO
 
       'status-header.notRememberedLogin': 'Nu-mi amintesc',
       // means that the login status is temporary and will not be remembered next time
@@ -1412,11 +1570,15 @@ export default {
 
       'chat.welcomeSecondMessage': 'Mesajele tale sunt publice si dispar dupa $N $A',
       'chat.welcomeSecondMessageJWT': 'Mesajele tale sunt publice si dispar dupa $N $A',
-      'chat.welcomeSecondMessage.A.minutes': 'minute',
-      'chat.welcomeSecondMessage.A.hours': 'ore',
-      'chat.welcomeSecondMessage.A.days': 'zile',
-      'chat.welcomeSecondMessage.A.weeks': 'saptamani',
+      // $N is a number and $A in a time unit taken from timeUnit.
       // example: "Please remember that your messages are public and disappear after 2 hours"
+
+      'chat.messageDeleted.byYou': 'You deleted this message', // TODO
+      'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
+      'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
+      'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.unknown': 'Message deleted', // TODO
 
       'chat.placeholder': 'Scrie mesajul',
       'chat.postBtn': 'Publica', // means "publica mesajul tau"
@@ -1428,15 +1590,19 @@ export default {
       'chat.abortedError': 'Intrare esuata sau cookie nu sunt permise in acest browser',
       'chat.mutedError': 'Ups! Se pare ca nu poti publica inca',
       'chat.notPersistentError': 'Autetificarea nu este posibila deoarece ai setari ridicate de mentinere a intimitatii. Permite acum browser-ului cookie de la Now4real.',
+      'chat.disabledError': 'This chat has been disabled', // TODO
 
+      'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
+      'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
       'chat.signinRequired': '<a>Intra in</a> to chat',
       // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
       'chat.viewOnly': 'Doar vizualizare',
 
       // below are the actions on messages that appear in a contextual menu
-      'chat.replyBtn': 'Raspunde',
-      'chat.deleteBtn': 'Stergere',
+      'chat.replyBtn': 'Raspunde', // means "reply to this message"
+      'chat.deleteBtn': 'Stergere', // means "delete this message"
+      'chat.muteBtn': 'Mute', // means "mute this user" // TODO
 
       /**
        * Presence
@@ -1526,6 +1692,24 @@ export default {
       // keep <a1> and </a1> unchanged and surrounding the translation of "Termene si Servicii"
       // keep <a2> and </a2> unchanged and surrounding the translation of "Politica de Confidentialitate"
 
-      'jwt-modal.button': 'Accept'
+      'jwt-modal.button': 'Accept',
+
+      /**
+       * Mute dialog
+       */
+      'mute-modal.title': 'Mute User', // TODO
+
+      'mute-modal.header': 'User $U has been muted until $E', // TODO
+      // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+
+      'mute-modal.body.set': 'Mute user $U for:', // TODO
+      // example: "Mute user Ben for:" followed by input fields with "3 days"
+
+      'mute-modal.body.update': 'Update mute period:', // TODO
+      // example: "Update mute period:" followed by input fields with "5 days"
+
+      'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+
+      'mute-modal.button': 'Confirm' // TODO
    }
 }
