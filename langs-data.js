@@ -9,6 +9,7 @@
      is translated, for Italian, into
         'monitor.siteViewersTitle': 'Persone che stanno vedendo questo sito',
    - Preserve all quotation marks (') around the translations.
+   - If you need to use the apostrophe, write \' instead of ' (to distinguish it from quotation marks).
    - Preserve commas at the end of lines (,).
    - In some cases, phrases contain placeholders, which are expressed as $A, $B, $N, etc.
      These placeholders must be kept in the traslation and will be automatically replaced with actual data.
@@ -148,9 +149,9 @@ export default {
       'chat.viewOnly': 'View-only mode',
 
       // below are the actions on messages that appear in a contextual menu
-      'chat.replyBtn': 'Reply',
-      'chat.deleteBtn': 'Delete',
-      'chat.muteBtn': 'Mute',
+      'chat.replyBtn': 'Reply', // means "reply to this message"
+      'chat.deleteBtn': 'Delete', // means "delete this message"
+      'chat.muteBtn': 'Mute', // means "mute this user"
 
       /**
        * Presence
@@ -252,7 +253,6 @@ export default {
 
       'mute-modal.body.set': 'Mute user $U for:',
       // example: "Mute user Ben for:" followed by input fields with "3 days"
-      // $N is a number and $A in a time unit taken from timeUnit.
       
       'mute-modal.body.update': 'Update mute period:',
       // example: "Update mute period:" followed by input fields with "5 days"    
@@ -391,9 +391,9 @@ export default {
       'chat.viewOnly': 'Sola lettura',
 
       // below are the actions on messages that appear in a contextual menu
-      'chat.replyBtn': 'Rispondi',
-      'chat.deleteBtn': 'Elimina',
-      'chat.muteBtn': 'Silenzia',
+      'chat.replyBtn': 'Rispondi', // means "reply to this message"
+      'chat.deleteBtn': 'Elimina', // means "delete this message"
+      'chat.muteBtn': 'Silenzia', // means "mute this user"
 
       /**
        * Presence
@@ -491,17 +491,15 @@ export default {
       'mute-modal.title': 'Silenzia Utente',
 
       'mute-modal.header': 'L\'utente $U è stato silenziato fino a $E.',
+      // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
       'mute-modal.body.set': 'Silenzia l\'utente $U per:',
+      // example: "Mute user Ben for:" followed by input fields with "3 days"
+      
       'mute-modal.body.update': 'Aggiorna il periodo di silenziamento:',
+      // example: "Update mute period:" followed by input fields with "5 days"    
+      
       'mute-modal.body.deleteAlert': 'Stai rimuovendo il silenziamento per l\'utente.',
-
-      'mute-modal.body.unit.minutes': 'minuti',
-      'mute-modal.body.unit.hours': 'ore',
-      'mute-modal.body.unit.days': 'giorni',
-      'mute-modal.body.unit.weeks': 'settimane',
-      'mute-modal.body.unit.months': 'mesi',
-      'mute-modal.body.unit.years': 'anni',
 
       'mute-modal.button': 'Conferma'
    },
