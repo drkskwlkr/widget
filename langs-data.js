@@ -1,25 +1,27 @@
+/*
+   RULES FOR TRANSLATORS
+   - Clone the ENGLISH ('en') blog and change 'en' to the target language code.
+   - All the text after symbols /* and // are comments and must not be translated.
+   - Please read the comments to understand the context of the translation.
+   - For each row, only the text after the colon (:) must be translated.
+     Example:
+        'monitor.siteViewersTitle': 'People viewing this site',
+     is translated, for Italian, into
+        'monitor.siteViewersTitle': 'Persone che stanno vedendo questo sito',
+   - Preserve all quotation marks (') around the translations.
+   - Preserve commas at the end of lines (,).
+   - In some cases, phrases contain placeholders, which are expressed as $A, $B, $N, etc.
+     These placeholders must be kept in the traslation and will be automatically replaced with actual data.
+   - Use gender-neutral language
+   - Please get back to us for any doubts and clarifications! Reach out via GitHub or at support@now4real.com
+*/
+
 export default {
 
    /****************************************************************************************
     * ENGLISH (American)
     ****************************************************************************************/
 
-   /*
-      RULES FOR TRANSLATORS
-      - All the text after symbols /* and // are comments and must not be translated.
-      - Please read the comments to understand the context of the translation.
-      - For each row, only the text after the colon (:) must be translated.
-        Example:
-           'monitor.siteViewersTitle': 'People viewing this site',
-        is translated, for Italian, into
-           'monitor.siteViewersTitle': 'Persone che stanno vedendo questo sito',
-      - Preserve all quotation marks (') around the translations.
-      - Preserve commas at the end of lines (,).
-      - In some cases, phrases contain placeholders, which are expressed as $A, $B, $N, etc.
-        These placeholders must be kept in the traslation and will be automatically replaced with actual data.
-      - Use gender-neutral language
-      - Please get back to us for any doubts and clarifications!
-   */
    'en': {
       'genericError': 'Oops! Something went wrong',
 
@@ -30,6 +32,13 @@ export default {
        */
       'hour-format': 12,
       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+
+      'timeUnit.minutes': 'minutes',
+      'timeUnit.hours': 'hours',
+      'timeUnit.days': 'days',
+      'timeUnit.weeks': 'weeks',
+      'timeUnit.months': 'months',
+      'timeUnit.years': 'years',
 
       /**
        * Commons
@@ -109,10 +118,7 @@ export default {
 
       'chat.welcomeSecondMessage': 'Please remember that your messages are public and disappear after $N $A',
       'chat.welcomeSecondMessageJWT': 'Please remember that your messages may be public and disappear after $N $A',
-      'chat.welcomeSecondMessage.A.minutes': 'minutes',
-      'chat.welcomeSecondMessage.A.hours': 'hours',
-      'chat.welcomeSecondMessage.A.days': 'days',
-      'chat.welcomeSecondMessage.A.weeks': 'weeks',
+      // $N is a number and $A in a time unit taken from timeUnit.
       // example: "Please remember that your messages are public and disappear after 2 hours"
 
       'chat.messageDeleted.byYou': 'You deleted this message',
@@ -241,18 +247,17 @@ export default {
        */
       'mute-modal.title': 'Mute User',
 
-      'mute-modal.header': 'The user $U is muted until $E.',
+      'mute-modal.header': 'User $U has been muted until $E',
+      // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
-      'mute-modal.body.set': 'Mute the user $U for:',
+      'mute-modal.body.set': 'Mute user $U for:',
+      // example: "Mute user Ben for:" followed by input fields with "3 days"
+      // $N is a number and $A in a time unit taken from timeUnit.
+      
       'mute-modal.body.update': 'Update mute period:',
-      'mute-modal.body.deleteAlert': 'You are deleting the mute.',
-
-      'mute-modal.body.unit.minutes': 'minutes',
-      'mute-modal.body.unit.hours': 'hours',
-      'mute-modal.body.unit.days': 'days',
-      'mute-modal.body.unit.weeks': 'weeks',
-      'mute-modal.body.unit.months': 'months',
-      'mute-modal.body.unit.years': 'years',
+      // example: "Update mute period:" followed by input fields with "5 days"    
+      
+      'mute-modal.body.deleteAlert': 'You are unmuting the user',
 
       'mute-modal.button': 'Confirm'
    },
@@ -270,6 +275,13 @@ export default {
        */
       'hour-format': 24,
       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+      
+      'timeUnit.minutes': 'minuti',
+      'timeUnit.hours': 'ore',
+      'timeUnit.days': 'giorni',
+      'timeUnit.weeks': 'settimane',
+      'timeUnit.months': 'mesi',
+      'timeUnit.years': 'anni',
 
       /**
        * Commons
@@ -349,10 +361,7 @@ export default {
 
       'chat.welcomeSecondMessage': 'Ricorda che quello che scrivi in chat è pubblico e scompare dopo $N $A',
       'chat.welcomeSecondMessageJWT': 'Ricorda che quello che scrivi in chat potrebbe essere pubblico e scompare dopo $N $A',
-      'chat.welcomeSecondMessage.A.minutes': 'minuti',
-      'chat.welcomeSecondMessage.A.hours': 'ore',
-      'chat.welcomeSecondMessage.A.days': 'giorni',
-      'chat.welcomeSecondMessage.A.weeks': 'settimane',
+      // $N is a number and $A in a time unit taken from timeUnit.
       // example: "Please remember that your messages are public and disappear after 2 hours"
 
       'chat.messageDeleted.byYou': 'Hai cancellato questo messaggio',
