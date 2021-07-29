@@ -258,7 +258,24 @@ export default {
 
       'mute-modal.body.deleteAlert': 'You are unmuting the user',
 
-      'mute-modal.button': 'Confirm'
+      'mute-modal.button': 'Confirm',
+
+      /**
+       * Confirm dialog
+       */
+      'confirmation-modal.title': 'Confirm',
+      'confirmation-modal.ok': 'Yes',
+      'confirmation-modal.cancel': 'No',
+
+      /**
+       * Flush chat confirm dialog
+       */
+      'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?',
+
+      /**
+       * Disable chat confirm dialog
+       */
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?'
    },
 
    /****************************************************************************************
@@ -500,7 +517,24 @@ export default {
 
       'mute-modal.body.deleteAlert': 'Stai rimuovendo il silenziamento per l\'utente',
 
-      'mute-modal.button': 'Conferma'
+      'mute-modal.button': 'Conferma',
+
+      /**
+       * Confirm dialog
+       */
+      'confirmation-modal.title': 'Conferma',
+      'confirmation-modal.ok': 'Si',
+      'confirmation-modal.cancel': 'No',
+
+      /**
+       * Flush chat confirm dialog
+       */
+      'flush-chat-confirmation-modal.message': 'Sei sicuro di voler svuotare questa chat?',
+
+      /**
+       * Disable chat confirm dialog
+       */
+      'disable-chat-confirmation-modal.message': 'Sei sicuro di voler disabilitare questa chat?'
    },
 
    /****************************************************************************************
@@ -742,7 +776,24 @@ export default {
 
       'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
-      'mute-modal.button': 'Confirm' // TODO
+      'mute-modal.button': 'Confirm', // TODO
+
+      /**
+       * Confirm dialog
+       */
+      'confirmation-modal.title': 'Confirm', // TODO
+      'confirmation-modal.ok': 'Yes', // TODO
+      'confirmation-modal.cancel': 'No', // TODO
+
+      /**
+       * Flush chat confirm dialog
+       */
+      'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+
+      /**
+       * Disable chat confirm dialog
+       */
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
    },
 
    /****************************************************************************************
@@ -984,7 +1035,24 @@ export default {
 
       'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
-      'mute-modal.button': 'Confirm' // TODO
+      'mute-modal.button': 'Confirm', // TODO
+
+      /**
+       * Confirm dialog
+       */
+      'confirmation-modal.title': 'Confirm', // TODO
+      'confirmation-modal.ok': 'Yes', // TODO
+      'confirmation-modal.cancel': 'No', // TODO
+
+      /**
+       * Flush chat confirm dialog
+       */
+      'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+
+      /**
+       * Disable chat confirm dialog
+       */
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
    },
 
    /****************************************************************************************
@@ -1226,7 +1294,24 @@ export default {
 
       'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
-      'mute-modal.button': 'Confirm' // TODO
+      'mute-modal.button': 'Confirm', // TODO
+
+      /**
+       * Confirm dialog
+       */
+      'confirmation-modal.title': 'Confirm', // TODO
+      'confirmation-modal.ok': 'Yes', // TODO
+      'confirmation-modal.cancel': 'No', // TODO
+
+      /**
+       * Flush chat confirm dialog
+       */
+      'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+
+      /**
+       * Disable chat confirm dialog
+       */
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
    },
 
    /****************************************************************************************
@@ -1468,7 +1553,24 @@ export default {
 
       'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
-      'mute-modal.button': 'Confirm' // TODO
+      'mute-modal.button': 'Confirm', // TODO
+
+      /**
+       * Confirm dialog
+       */
+      'confirmation-modal.title': 'Confirm', // TODO
+      'confirmation-modal.ok': 'Yes', // TODO
+      'confirmation-modal.cancel': 'No', // TODO
+
+      /**
+       * Flush chat confirm dialog
+       */
+      'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+
+      /**
+       * Disable chat confirm dialog
+       */
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
    },
 
    /****************************************************************************************
@@ -1710,6 +1812,23 @@ export default {
 
       'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
-      'mute-modal.button': 'Confirm' // TODO
+      'mute-modal.button': 'Confirm', // TODO
+
+      /**
+       * Confirm dialog
+       */
+      'confirmation-modal.title': 'Confirm', // TODO
+      'confirmation-modal.ok': 'Yes', // TODO
+      'confirmation-modal.cancel': 'No', // TODO
+
+      /**
+       * Flush chat confirm dialog
+       */
+      'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+
+      /**
+       * Disable chat confirm dialog
+       */
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
    }
 }
