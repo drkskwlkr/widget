@@ -1857,7 +1857,7 @@ export default {
       /**
        * Time representation
        */
-      'hour-format': 24,
+      'hourFormat': 24,
       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
       'timeUnit.minutes': 'minuter',
