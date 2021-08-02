@@ -1844,5 +1844,267 @@ export default {
        * Disable chat confirm dialog
        */
       'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
+   },
+
+   /****************************************************************************************
+    * SWEDISH (Standard)
+    ****************************************************************************************/
+   'sv': {
+      'genericError': 'Hoppsan! Nu blev något fel',
+
+      'connection-status.offline': 'Du är offline',
+
+      /**
+       * Time representation
+       */
+      'hourFormat': 24,
+      // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+
+      'timeUnit.minutes': 'minuter',
+      'timeUnit.hours': 'timmar',
+      'timeUnit.days': 'dagar',
+      'timeUnit.weeks': 'veckor',
+      'timeUnit.months': 'months', // TODO
+      'timeUnit.years': 'years', // TODO
+
+      /**
+       * Commons
+       */
+      'commons.signedWith.google': 'Inloggad med Google',
+      'commons.signedWith.facebook': 'Inloggad med Facebook',
+      'commons.signedWith.twitter': 'Inloggad med Twitter',
+      'commons.signedWith.linkedin': 'Inloggad med LinkedIn',
+      'commons.signedWith.email': 'Inloggad med e-post',
+      'commons.signedWith.jwt': 'Inloggad på denna webbplats',
+
+      'commons.close': 'Stäng', // close button
+
+      /**
+       * Tooltips and balloons on closed widget
+       */
+      'monitor.pageViewersTitle': 'Personer som tittar på den här sidan',
+      'monitor.siteViewersTitle': 'Personer som tittar på denna webbplats',
+      'monitor.chatBalloon': 'CHATT', // keep upper case, if applicable
+      'monitor.presenceBalloon': 'Personer närvarande nu',
+
+      /**
+       * Menu
+       */
+      'status-header.options': 'Alternativ',
+      'status-header.flushChat': 'Flush this chat', // TODO
+      'status-header.disableChat': 'Disable this chat', // TODO
+      'status-header.enableChat': 'Enable this chat', // TODO
+      'status-header.help': 'Hjälp',
+      'status-header.issue': 'Rapportera ett problem',
+      'status-header.terms': 'Användarvillkor',
+      'status-header.privacy': 'Integritetspolicy',
+      'status-header.signout': 'Logga ut',
+      'status-header.signin': 'Sign in', // TODO
+
+      'status-header.notRememberedLogin': 'Sparas inte',
+      // means that the login status is temporary and will not be remembered next time
+
+      /**
+       * Tab labels and tooltips
+       */
+      'tab.chatTabLabel': 'CHATT', // max 8 characters; keep upper case, if applicable
+      'tab.chatTitlePage': 'Chatta med andra besökare på denna sida i realtid',
+      'tab.chatTitleSite': 'Chatta med andra besökare på denna webbplats i realtid',
+
+      'tab.rankingTabLabel': 'SIDOR', // max 8 characters; keep upper case, if applicable
+      'tab.rankingTitle': 'Sidor som besökare tittar på nu',
+
+      'tab.heatmapTabLabel': 'KARTA', // max 8 characters; keep upper case, if applicable
+      'tab.heatmapTitle': 'Varifrån besökarna kommer',
+
+      /**
+       * Heatmap
+       */
+      'heatmap.pageSwitchLabel': 'SIDA', // max 12 characters; keep upper case, if applicable
+      'heatmap.siteSwitchLabel': 'WEBBPLATS', // max 12 characters; keep upper case, if applicable
+
+      'heatmap.empty': 'Inga data',
+
+      /**
+       * Ranking
+       */
+      'ranking.foregroundTitle': 'Besökare på denna webbplats',
+      'ranking.activeTitle': 'Personer som chattar på denna webbplats',
+      'ranking.foregroundSwitchLabel': 'BESÖKARE', // max 12 characters; keep upper case, if applicable
+      'ranking.activeSwitchLabel': 'CHATTARE', // max 12 characters; keep upper case, if applicable
+      'ranking.empty': 'Inga data',
+      'ranking.currentPage': 'Nuvarande sida',
+
+      'ranking.note': 'Visar de tio högst rankade sidorna',
+      // note added to the end to the ranking list to explain that only the top ten pages are shown
+
+      /**
+       * Chat
+       */
+      'chat.welcomeFirstMessagePage': 'Chatta med andra besökare på denna sida i realtid',
+      'chat.welcomeFirstMessageSite': 'Chatta med andra besökare på denna webbplats i realtid',
+
+      'chat.welcomeSecondMessage': 'Kom ihåg att det du skriver i chatten är offentligt och försvinner efter $N $A',
+      'chat.welcomeSecondMessageJWT': 'Kom ihåg att det du skriver i chatten kan vara offentligt och försvinner efter $N $A',
+      // $N is a number and $A in a time unit taken from timeUnit.
+      // example: "Please remember that your messages are public and disappear after 2 hours"
+
+      'chat.messageDeleted.byYou': 'You deleted this message', // TODO
+      'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
+      'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
+      'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
+      'chat.messageDeleted.unknown': 'Message deleted', // TODO
+
+      'chat.placeholder': 'Skriv ett meddelande',
+      'chat.postBtn': 'Skicka', // means "publish this message"
+
+      'chat.tooFrequentError': 'Du är lite för snabb...\nSnälla översvämma inte chatten',
+      // \n means to break the line; \' distinguishes the apostrophe from the final apex
+
+      'chat.blockedError': 'Ursäkta, men... det här meddelandet verkar olämpligt',
+      'chat.abortedError': 'Inloggning avbruten eller cookies inaktiverade i den här webbläsaren',
+      'chat.mutedError': 'Hoppsan! Det verkar som om din mikrofon har stängts av',
+      'chat.notPersistentError': 'Autentiseringen sparas inte på grund av dina begränsade dataskyddsinställningar. För att förhindra detta, vänligen aktivera kakorna (cookies) för Now4real i din webbläsare.',
+      'chat.disabledError': 'This chat has been disabled', // TODO
+
+      'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
+      'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
+      'chat.signinRequired': '<a>Logga in</a> för att chatta',
+      // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+      'chat.viewOnly': 'Endast visningsläge',
+
+      // below are the actions on messages that appear in a contextual menu
+      'chat.replyBtn': 'Svara',
+      'chat.deleteBtn': 'Radera',
+      'chat.muteBtn': 'Mute', // means "mute this user" // TODO
+
+      /**
+       * Presence
+       */
+      'presence.all.a': '1 besökare på denna sida (av $N på denna webbplats)',
+      // example: "1 person on this page (of 23 on this site)"
+
+      'presence.all.b': '$N besökare på denna sida (av $M på denna webbplats)',
+      // example: "5 people on this page (of 23 on this site)"
+
+      'presence.page.a': '1 besökare på denna sida',
+      'presence.page.b': '$N besökare på den här sidan',
+
+      'presence.site.a': '1 besökare på denna webbplats',
+      'presence.site.b': '$N besökare på den här webbplatsen',
+
+      /**
+       * Emoji-picker labels
+       */
+      'emoji-picker.people': 'Människor',
+      'emoji-picker.nature': 'Natur',
+      'emoji-picker.food': 'Mat',
+      'emoji-picker.activity': 'Aktivitet',
+      'emoji-picker.travel': 'Platser',
+      'emoji-picker.objects': 'Föremål',
+      'emoji-picker.symbols': 'Symboler',
+      'emoji-picker.flags': 'Flaggor',
+
+      /**
+       * Typing
+       */
+      'typing.a': '1 person skriver...',
+
+      'typing.b': '$N personer skriver...',
+      // example: "5 people are typing..."
+
+      'typing.c': '$A skriver...',
+      // example: "Alex is typing..."
+
+      'typing.d': '$A och $B skriver...',
+      // example: "Alex and Ben are typing..."
+
+      'typing.e': '$A, $B och $C skriver...',
+      // example: "Alex, Ben, and Cindy are typing..."
+
+      'typing.f': '$A och 1 till skriver...',
+      // example: "Alex and 1 other are typing..."
+
+      'typing.g': '$A och $N andra skriver...',
+      // example: "Alex and 3 others are typing..."
+
+      'typing.h': '$A, $B och 1 till skriver...',
+      // example: "Alex, Ben, and 1 other are typing..."
+
+      'typing.i': '$A, $B, och $N andra skriver...',
+      // example: "Alex, Ben, and 3 others are typing..."
+
+      'typing.j': '$A, $B, $C och 1 till skriver...',
+      // example: "Alex, Ben, Cindy, and 1 other are typing..."
+
+      'typing.k': '$A, $B, $C och $N andra skriver...',
+      // example: "Alex, Ben, Cindy, and 3 others are typing..."
+
+      /**
+       * Social login dialog
+       */
+      'social-modal.title': 'Logga in',
+      'social-modal.header': 'Börja chatta på alla webbplatser som använder Now4real',
+
+      // buttons:
+      'social-modal.google': 'Logga in med Google',
+      'social-modal.facebook': 'Logga in med Facebook',
+      'social-modal.twitter': 'Logga in med Twitter',
+      'social-modal.linkedin': 'Logga in med LinkedIn',
+      'social-modal.email': 'Logga in med e-post',
+
+      'social-modal.footer': 'Klicka på "Logga in" ovan för att acceptera Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>',
+      // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+      // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+
+      /**
+       * JWT login dialog
+       */
+      'jwt-modal.title': 'Samtycke',
+
+      'jwt-modal.header': 'För att börja chatta behöver du acceptera <a1>användarvillkoren</a1> och <a2>integritetspolicyn</a2> från Now4real (chattjänsten)',
+      // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+      // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+
+      'jwt-modal.button': 'Acceptera',
+
+      /**
+       * Mute dialog
+       */
+      'mute-modal.title': 'Mute User', // TODO
+
+      'mute-modal.header': 'User $U has been muted until $E', // TODO
+      // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+
+      'mute-modal.body.set': 'Mute user $U for:', // TODO
+      // example: "Mute user Ben for:" followed by input fields with "3 days"
+
+      'mute-modal.body.update': 'Update mute period:', // TODO
+      // example: "Update mute period:" followed by input fields with "5 days"
+
+      'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
+
+      'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+
+      'mute-modal.button': 'Confirm', // TODO
+
+      /**
+       * Confirm dialog
+       */
+      'confirmation-modal.title': 'Confirm', // TODO
+      'confirmation-modal.ok': 'Yes', // TODO
+      'confirmation-modal.cancel': 'No', // TODO
+
+      /**
+       * Flush chat confirm dialog
+       */
+      'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+
+      /**
+       * Disable chat confirm dialog
+       */
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
    }
 }
