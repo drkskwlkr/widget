@@ -256,6 +256,8 @@ export default {
       'mute-modal.body.update': 'Update mute period:',
       // example: "Update mute period:" followed by input fields with "5 days"
 
+      'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.',
+
       'mute-modal.body.deleteAlert': 'You are unmuting the user',
 
       'mute-modal.button': 'Confirm',
@@ -514,6 +516,8 @@ export default {
 
       'mute-modal.body.update': 'Aggiorna il periodo di silenziamento:',
       // example: "Update mute period:" followed by input fields with "5 days"
+
+      'mute-modal.body.deleteInfo': 'Potrai riattivare l\'utente quando vorrai.',
 
       'mute-modal.body.deleteAlert': 'Stai rimuovendo il silenziamento per l\'utente',
 
@@ -774,6 +778,8 @@ export default {
       'mute-modal.body.update': 'Update mute period:', // TODO
       // example: "Update mute period:" followed by input fields with "5 days"
 
+      'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
+
       'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
       'mute-modal.button': 'Confirm', // TODO
@@ -1032,6 +1038,8 @@ export default {
 
       'mute-modal.body.update': 'Update mute period:', // TODO
       // example: "Update mute period:" followed by input fields with "5 days"
+
+      'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
 
       'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
@@ -1292,6 +1300,8 @@ export default {
       'mute-modal.body.update': 'Update mute period:', // TODO
       // example: "Update mute period:" followed by input fields with "5 days"
 
+      'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
+
       'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
       'mute-modal.button': 'Confirm', // TODO
@@ -1551,6 +1561,8 @@ export default {
       'mute-modal.body.update': 'Update mute period:', // TODO
       // example: "Update mute period:" followed by input fields with "5 days"
 
+      'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
+
       'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
       'mute-modal.button': 'Confirm', // TODO
@@ -1809,6 +1821,8 @@ export default {
 
       'mute-modal.body.update': 'Update mute period:', // TODO
       // example: "Update mute period:" followed by input fields with "5 days"
+
+      'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
 
       'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
