@@ -1864,8 +1864,8 @@ export default {
       'timeUnit.hours': 'timmar',
       'timeUnit.days': 'dagar',
       'timeUnit.weeks': 'veckor',
-      'timeUnit.months': 'months', // TODO
-      'timeUnit.years': 'years', // TODO
+      'timeUnit.months': 'månader',
+      'timeUnit.years': 'år',
 
       /**
        * Commons
@@ -1891,15 +1891,15 @@ export default {
        * Menu
        */
       'status-header.options': 'Alternativ',
-      'status-header.flushChat': 'Flush this chat', // TODO
-      'status-header.disableChat': 'Disable this chat', // TODO
-      'status-header.enableChat': 'Enable this chat', // TODO
+      'status-header.flushChat': 'Rensa alla meddelanden i den här chatten',
+      'status-header.disableChat': 'Inaktivera den här chatten',
+      'status-header.enableChat': 'Aktivera den här chatten',
       'status-header.help': 'Hjälp',
       'status-header.issue': 'Rapportera ett problem',
       'status-header.terms': 'Användarvillkor',
       'status-header.privacy': 'Integritetspolicy',
       'status-header.signout': 'Logga ut',
-      'status-header.signin': 'Sign in', // TODO
+      'status-header.signin': 'Logga in',
 
       'status-header.notRememberedLogin': 'Sparas inte',
       // means that the login status is temporary and will not be remembered next time
@@ -1949,12 +1949,12 @@ export default {
       // $N is a number and $A in a time unit taken from timeUnit.
       // example: "Please remember that your messages are public and disappear after 2 hours"
 
-      'chat.messageDeleted.byYou': 'You deleted this message', // TODO
-      'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
-      'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
-      'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
-      'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
-      'chat.messageDeleted.unknown': 'Message deleted', // TODO
+      'chat.messageDeleted.byYou': 'Du raderade det här meddelandet',
+      'chat.messageDeleted.byAuthor': 'Meddelande raderat av författaren',
+      'chat.messageDeleted.byModerator': 'Meddelande raderat av en moderator',
+      'chat.messageDeleted.byAdmin': 'Meddelande raderat av administratören',
+      'chat.messageDeleted.byNow4real': 'Meddelande raderat av administratören',
+      'chat.messageDeleted.unknown': 'Meddelande raderat',
 
       'chat.placeholder': 'Skriv ett meddelande',
       'chat.postBtn': 'Skicka', // means "publish this message"
@@ -1964,12 +1964,12 @@ export default {
 
       'chat.blockedError': 'Ursäkta, men... det här meddelandet verkar olämpligt',
       'chat.abortedError': 'Inloggning avbruten eller cookies inaktiverade i den här webbläsaren',
-      'chat.mutedError': 'Hoppsan! Det verkar som om din mikrofon har stängts av',
+      'chat.mutedError': 'Hoppsan! Det verkar som om din chattfunktion har tystats ner',
       'chat.notPersistentError': 'Autentiseringen sparas inte på grund av dina begränsade dataskyddsinställningar. För att förhindra detta, vänligen aktivera kakorna (cookies) för Now4real i din webbläsare.',
-      'chat.disabledError': 'This chat has been disabled', // TODO
+      'chat.disabledError': 'Den här chatten har inaktiverats',
 
-      'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
-      'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
+      'chat.disabledByAdmin': 'Den här chatten har inaktiverats av administratören',
+      'chat.disabledByModerator': 'Den här chatten har inaktiverats av en moderator',
       'chat.signinRequired': '<a>Logga in</a> för att chatta',
       // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
@@ -1978,7 +1978,7 @@ export default {
       // below are the actions on messages that appear in a contextual menu
       'chat.replyBtn': 'Svara',
       'chat.deleteBtn': 'Radera',
-      'chat.muteBtn': 'Mute', // means "mute this user" // TODO
+      'chat.muteBtn': 'Tysta', // means "mute this user"
 
       /**
        * Presence
@@ -2073,38 +2073,38 @@ export default {
       /**
        * Mute dialog
        */
-      'mute-modal.title': 'Mute User', // TODO
+      'mute-modal.title': 'Tysta Användaren',
 
-      'mute-modal.header': 'User $U has been muted until $E', // TODO
+      'mute-modal.header': 'Användaren $U har tystats tills $E',
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
-      'mute-modal.body.set': 'Mute user $U for:', // TODO
+      'mute-modal.body.set': 'Tysta användaren $U i:',
       // example: "Mute user Ben for:" followed by input fields with "3 days"
 
-      'mute-modal.body.update': 'Update mute period:', // TODO
+      'mute-modal.body.update': 'Uppdatera tystnings period:',
       // example: "Update mute period:" followed by input fields with "5 days"
 
-      'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
+      'mute-modal.body.deleteInfo': 'Du kan avtysta användaren när du vill.',
 
-      'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+      'mute-modal.body.deleteAlert': 'Du avtystar användaren',
 
-      'mute-modal.button': 'Confirm', // TODO
+      'mute-modal.button': 'Bekräfta',
 
       /**
        * Confirm dialog
        */
-      'confirmation-modal.title': 'Confirm', // TODO
-      'confirmation-modal.ok': 'Yes', // TODO
-      'confirmation-modal.cancel': 'No', // TODO
+      'confirmation-modal.title': 'Bekräfta',
+      'confirmation-modal.ok': 'Ja',
+      'confirmation-modal.cancel': 'Nej',
 
       /**
        * Flush chat confirm dialog
        */
-      'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+      'flush-chat-confirmation-modal.message': 'Är du säker på att du vill rensa alla meddelanden i den här chatten?',
 
       /**
        * Disable chat confirm dialog
        */
-      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
+      'disable-chat-confirmation-modal.message': 'Är du säker på att du vill inaktivera den här chatten?'
    }
 }
