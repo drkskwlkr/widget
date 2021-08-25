@@ -277,7 +277,19 @@ export default {
       /**
        * Disable chat confirm dialog
        */
-      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?'
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?',
+
+      /**
+       * Social login redirect pages
+       */
+      'social-login-redirect.title': 'Now4real Social Login',
+
+      'social-login-redirect.step1.msg': 'You are being redirected to $A, please wait...',
+      // example: "You are being redirected to Google, please wait..."
+
+      'social-login-redirect.step2.msg': 'You are being redirected, please wait...',
+
+      'social-login-redirect.error': 'Oops! Something went wrong'
    },
 
    /****************************************************************************************
@@ -538,7 +550,19 @@ export default {
       /**
        * Disable chat confirm dialog
        */
-      'disable-chat-confirmation-modal.message': 'Sei sicuro di voler disabilitare questa chat?'
+      'disable-chat-confirmation-modal.message': 'Sei sicuro di voler disabilitare questa chat?',
+
+      /**
+       * Social login redirect pages
+       */
+      'social-login-redirect.title': 'Now4real Social Login',
+
+      'social-login-redirect.step1.msg': 'Verrai rediretto su $A, attendi per favore...',
+      // example: "You are being redirected to Google, please wait..."
+
+      'social-login-redirect.step2.msg': 'Verrai rediretto, attendi per favore...',
+
+      'social-login-redirect.error': 'Oops! Qualcosa è andato storto'
    },
 
    /****************************************************************************************
@@ -799,7 +823,19 @@ export default {
       /**
        * Disable chat confirm dialog
        */
-      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+
+      /**
+       * Social login redirect pages
+       */
+      'social-login-redirect.title': 'Now4real Social Login', // TODO
+
+      'social-login-redirect.step1.msg': 'You are being redirected to $A, please wait...', // TODO
+      // example: "You are being redirected to Google, please wait..."
+
+      'social-login-redirect.step2.msg': 'You are being redirected, please wait...', // TODO
+
+      'social-login-redirect.error': 'Oops! Something went wrong' // TODO
    },
 
    /****************************************************************************************
@@ -1060,7 +1096,19 @@ export default {
       /**
        * Disable chat confirm dialog
        */
-      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+
+      /**
+       * Social login redirect pages
+       */
+      'social-login-redirect.title': 'Now4real Social Login', // TODO
+
+      'social-login-redirect.step1.msg': 'You are being redirected to $A, please wait...', // TODO
+      // example: "You are being redirected to Google, please wait..."
+
+      'social-login-redirect.step2.msg': 'You are being redirected, please wait...', // TODO
+
+      'social-login-redirect.error': 'Oops! Something went wrong' // TODO
    },
 
    /****************************************************************************************
@@ -1321,7 +1369,19 @@ export default {
       /**
        * Disable chat confirm dialog
        */
-      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+
+      /**
+       * Social login redirect pages
+       */
+      'social-login-redirect.title': 'Now4real Social Login', // TODO
+
+      'social-login-redirect.step1.msg': 'You are being redirected to $A, please wait...', // TODO
+      // example: "You are being redirected to Google, please wait..."
+
+      'social-login-redirect.step2.msg': 'You are being redirected, please wait...', // TODO
+
+      'social-login-redirect.error': 'Oops! Something went wrong' // TODO
    },
 
    /****************************************************************************************
@@ -1582,7 +1642,19 @@ export default {
       /**
        * Disable chat confirm dialog
        */
-      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+
+      /**
+       * Social login redirect pages
+       */
+      'social-login-redirect.title': 'Now4real Social Login', // TODO
+
+      'social-login-redirect.step1.msg': 'You are being redirected to $A, please wait...', // TODO
+      // example: "You are being redirected to Google, please wait..."
+
+      'social-login-redirect.step2.msg': 'You are being redirected, please wait...', // TODO
+
+      'social-login-redirect.error': 'Oops! Something went wrong' // TODO
    },
 
    /****************************************************************************************
@@ -1843,7 +1915,19 @@ export default {
       /**
        * Disable chat confirm dialog
        */
-      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
+      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+
+      /**
+       * Social login redirect pages
+       */
+      'social-login-redirect.title': 'Now4real Social Login', // TODO
+
+      'social-login-redirect.step1.msg': 'You are being redirected to $A, please wait...', // TODO
+      // example: "You are being redirected to Google, please wait..."
+
+      'social-login-redirect.step2.msg': 'You are being redirected, please wait...', // TODO
+
+      'social-login-redirect.error': 'Oops! Something went wrong' // TODO
    },
 
    /****************************************************************************************
@@ -2105,6 +2189,18 @@ export default {
       /**
        * Disable chat confirm dialog
        */
-      'disable-chat-confirmation-modal.message': 'Är du säker på att du vill inaktivera den här chatten?'
+      'disable-chat-confirmation-modal.message': 'Är du säker på att du vill inaktivera den här chatten?',
+
+      /**
+       * Social login redirect pages
+       */
+      'social-login-redirect.title': 'Now4real Social Login', // TODO
+
+      'social-login-redirect.step1.msg': 'You are being redirected to $A, please wait...', // TODO
+      // example: "You are being redirected to Google, please wait..."
+
+      'social-login-redirect.step2.msg': 'You are being redirected, please wait...', // TODO
+
+      'social-login-redirect.error': 'Oops! Something went wrong' // TODO
    }
 }
