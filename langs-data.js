@@ -1957,7 +1957,7 @@ export default {
       'timeUnit.weeks': 'veckor',
       'timeUnit.months': 'månader',
       'timeUnit.years': 'år',
-      'timeUnit.forever': 'forever', // TODO
+      'timeUnit.forever': 'för evigt',
 
       /**
        * Commons
@@ -2202,13 +2202,13 @@ export default {
       /**
        * Social login redirect pages
        */
-      'social-login-redirect.title': 'Now4real Social Login', // TODO
+      'social-login-redirect.title': 'Now4real Social Login',
 
-      'social-login-redirect.step1.msg': 'You are being redirected to $A, please wait...', // TODO
+      'social-login-redirect.step1.msg': 'Du skickas vidare till $A, var god vänta...',
       // example: "You are being redirected to Google, please wait..."
 
-      'social-login-redirect.step2.msg': 'You are being redirected, please wait...', // TODO
+      'social-login-redirect.step2.msg': 'Du skickas vidare, var god vänta...',
 
-      'social-login-redirect.error': 'Oops! Something went wrong' // TODO
+      'social-login-redirect.error': 'Hopsan! Något blev fel'
    }
 }
