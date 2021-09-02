@@ -39,6 +39,7 @@ export default {
       'timeUnit.weeks': 'weeks',
       'timeUnit.months': 'months',
       'timeUnit.years': 'years',
+      'timeUnit.forever': 'forever',
 
       /**
        * Commons
@@ -312,6 +313,7 @@ export default {
       'timeUnit.weeks': 'settimane',
       'timeUnit.months': 'mesi',
       'timeUnit.years': 'anni',
+      'timeUnit.forever': 'per sempre',
 
       /**
        * Commons
@@ -585,6 +587,7 @@ export default {
       'timeUnit.weeks': 'semanas',
       'timeUnit.months': 'meses',
       'timeUnit.years': 'años',
+      'timeUnit.forever': 'forever', // TODO
 
       /**
        * Commons
@@ -858,6 +861,7 @@ export default {
       'timeUnit.weeks': 'semanas',
       'timeUnit.months': 'meses',
       'timeUnit.years': 'anos',
+      'timeUnit.forever': 'forever', // TODO
 
       /**
        * Commons
@@ -1131,6 +1135,7 @@ export default {
       'timeUnit.weeks': 'Wochen',
       'timeUnit.months': 'Monate',
       'timeUnit.years': 'Jahre',
+      'timeUnit.forever': 'forever', // TODO
 
       /**
        * Commons
@@ -1404,6 +1409,7 @@ export default {
       'timeUnit.weeks': 'tygodniach',
       'timeUnit.months': 'miesiące',
       'timeUnit.years': 'lat',
+      'timeUnit.forever': 'forever', // TODO
 
       /**
        * Commons
@@ -1677,6 +1683,7 @@ export default {
       'timeUnit.weeks': 'saptamani',
       'timeUnit.months': 'luni',
       'timeUnit.years': 'ani',
+      'timeUnit.forever': 'forever', // TODO
 
       /**
        * Commons
@@ -1950,6 +1957,7 @@ export default {
       'timeUnit.weeks': 'veckor',
       'timeUnit.months': 'månader',
       'timeUnit.years': 'år',
+      'timeUnit.forever': 'forever', // TODO
 
       /**
        * Commons
