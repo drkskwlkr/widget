@@ -251,6 +251,8 @@ export default {
       'mute-modal.header': 'User $U has been muted until $E',
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
+      'mute-modal.headerForever': 'User $U has been muted',
+
       'mute-modal.body.set': 'Mute user $U for:',
       // example: "Mute user Ben for:" followed by input fields with "3 days"
 
@@ -524,6 +526,8 @@ export default {
 
       'mute-modal.header': 'L\'utente $U è stato silenziato fino a $E',
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+
+      'mute-modal.headerForever': 'L\'utente $U è stato silenziato',
 
       'mute-modal.body.set': 'Silenzia l\'utente $U per:',
       // example: "Mute user Ben for:" followed by input fields with "3 days"
@@ -799,6 +803,8 @@ export default {
       'mute-modal.header': 'User $U has been muted until $E', // TODO
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
+      'mute-modal.headerForever': 'User $U has been muted', // TODO
+
       'mute-modal.body.set': 'Mute user $U for:', // TODO
       // example: "Mute user Ben for:" followed by input fields with "3 days"
 
@@ -1072,6 +1078,8 @@ export default {
 
       'mute-modal.header': 'User $U has been muted until $E', // TODO
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+
+      'mute-modal.headerForever': 'User $U has been muted', // TODO
 
       'mute-modal.body.set': 'Mute user $U for:', // TODO
       // example: "Mute user Ben for:" followed by input fields with "3 days"
@@ -1347,6 +1355,8 @@ export default {
       'mute-modal.header': 'User $U has been muted until $E', // TODO
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
+      'mute-modal.headerForever': 'User $U has been muted', // TODO
+
       'mute-modal.body.set': 'Mute user $U for:', // TODO
       // example: "Mute user Ben for:" followed by input fields with "3 days"
 
@@ -1620,6 +1630,8 @@ export default {
 
       'mute-modal.header': 'User $U has been muted until $E', // TODO
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+
+      'mute-modal.headerForever': 'User $U has been muted', // TODO
 
       'mute-modal.body.set': 'Mute user $U for:', // TODO
       // example: "Mute user Ben for:" followed by input fields with "3 days"
@@ -1895,6 +1907,8 @@ export default {
       'mute-modal.header': 'User $U has been muted until $E', // TODO
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
+      'mute-modal.headerForever': 'User $U has been muted', // TODO
+
       'mute-modal.body.set': 'Mute user $U for:', // TODO
       // example: "Mute user Ben for:" followed by input fields with "3 days"
 
@@ -2169,6 +2183,8 @@ export default {
 
       'mute-modal.header': 'Användaren $U har tystats tills $E',
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+
+      'mute-modal.headerForever': 'Användaren $U har tystats',
 
       'mute-modal.body.set': 'Tysta användaren $U i:',
       // example: "Mute user Ben for:" followed by input fields with "3 days"
