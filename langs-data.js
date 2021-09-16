@@ -1419,7 +1419,7 @@ export default {
       'timeUnit.weeks': 'tygodniach',
       'timeUnit.months': 'miesiące',
       'timeUnit.years': 'lat',
-      'timeUnit.forever': 'forever', // TODO
+      'timeUnit.forever': 'na zawsze',
 
       /**
        * Commons
@@ -1445,15 +1445,15 @@ export default {
        * Menu
        */
       'status-header.options': 'Opcje',
-      'status-header.flushChat': 'Flush this chat', // TODO
-      'status-header.disableChat': 'Disable this chat', // TODO
-      'status-header.enableChat': 'Enable this chat', // TODO
+      'status-header.flushChat': 'Wyczyść ten czat',
+      'status-header.disableChat': 'Wyłącz ten czat',
+      'status-header.enableChat': 'Włącz ten czat',
       'status-header.help': 'Pomoc',
       'status-header.issue': 'Zgłoś błąd',
       'status-header.terms': 'Regulamin',
       'status-header.privacy': 'Polityka Prywatności',
       'status-header.signout': 'Wyloguj się',
-      'status-header.signin': 'Sign in', // TODO
+      'status-header.signin': 'Zaloguj się',
 
       'status-header.notRememberedLogin': 'Nie zapamiętany',
       // means that the login status is temporary and will not be remembered next time
@@ -1502,12 +1502,12 @@ export default {
       // $N is a number and $A in a time unit taken from timeUnit.
       // example: "Please remember that your messages are public and disappear after 2 hours"
 
-      'chat.messageDeleted.byYou': 'You deleted this message', // TODO
-      'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
-      'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
-      'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
-      'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
-      'chat.messageDeleted.unknown': 'Message deleted', // TODO
+      'chat.messageDeleted.byYou': 'Usunąłeś wiadomość',
+      'chat.messageDeleted.byAuthor': 'Wiadomość usunięta przez autora',
+      'chat.messageDeleted.byModerator': 'Wiadomość usunięta przez moderatora',
+      'chat.messageDeleted.byAdmin': 'Wiadomość usunięta przez administratora',
+      'chat.messageDeleted.byNow4real': 'Wiadomość usunięta przez administratora',
+      'chat.messageDeleted.unknown': 'Wiadomość usunięta',
 
       'chat.placeholder': 'Wpisz wiadomość',
       'chat.postBtn': 'Wyślij', // means "publish this message"
@@ -1519,10 +1519,10 @@ export default {
       'chat.abortedError': 'Nie można się zalogować lub ciasteczka są wyłączone w Twojej przeglądarce',
       'chat.mutedError': 'Oops! Wygląda na to, że zostałeś wyciszony',
       'chat.notPersistentError': 'Uwierzytelnienie nie zostanie zapamiętane ze względu na Twoje ustawienia prywatności. Prosimy włączyć obsługę plików cookie w swojej przeglądarce, aby temu zapobiec.',
-      'chat.disabledError': 'This chat has been disabled', // TODO
+      'chat.disabledError': 'Ten czat został wyłączony',
 
-      'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
-      'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
+      'chat.disabledByAdmin': 'Ten czat został wyłączony przez administratora',
+      'chat.disabledByModerator': 'Ten czat został wyłączony przez moderatora',
       'chat.signinRequired': '<a>Zaloguj się</a> aby rozmawiać',
       // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
@@ -1531,7 +1531,7 @@ export default {
       // below are the actions on messages that appear in a contextual menu
       'chat.replyBtn': 'Odpowiedz', // means "reply to this message"
       'chat.deleteBtn': 'Usuń', // means "delete this message"
-      'chat.muteBtn': 'Mute', // means "mute this user" // TODO
+      'chat.muteBtn': 'Wycisz', // means "mute this user"
 
       /**
        * Presence
@@ -1626,53 +1626,53 @@ export default {
       /**
        * Mute dialog
        */
-      'mute-modal.title': 'Mute User', // TODO
+      'mute-modal.title': 'Wycisz użytkownika',
 
-      'mute-modal.header': 'User $U has been muted until $E', // TODO
+      'mute-modal.header': 'Użytkownik $U został wyciszony do $E',
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
-      'mute-modal.headerForever': 'User $U has been muted', // TODO
+      'mute-modal.headerForever': 'Użytkownik $U został wyciszony',
 
-      'mute-modal.body.set': 'Mute user $U for:', // TODO
+      'mute-modal.body.set': 'Wycisz użytkownika $U na:',
       // example: "Mute user Ben for:" followed by input fields with "3 days"
 
-      'mute-modal.body.update': 'Update mute period:', // TODO
+      'mute-modal.body.update': 'Aktualizacja okresu wyciszenia:',
       // example: "Update mute period:" followed by input fields with "5 days"
 
-      'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
+      'mute-modal.body.deleteInfo': 'Możesz wyłączyć wyciszenie użytkownika, kiedy tylko chcesz.',
 
-      'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+      'mute-modal.body.deleteAlert': 'Uwalniasz użytkownika',
 
-      'mute-modal.button': 'Confirm', // TODO
+      'mute-modal.button': 'Potwierdź',
 
       /**
        * Confirm dialog
        */
-      'confirmation-modal.title': 'Confirm', // TODO
-      'confirmation-modal.ok': 'Yes', // TODO
-      'confirmation-modal.cancel': 'No', // TODO
+      'confirmation-modal.title': 'Potwierdź',
+      'confirmation-modal.ok': 'Tak',
+      'confirmation-modal.cancel': 'Nie',
 
       /**
        * Flush chat confirm dialog
        */
-      'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+      'flush-chat-confirmation-modal.message': 'Czy na pewno chcesz wyczyścić ten czat?',
 
       /**
        * Disable chat confirm dialog
        */
-      'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+      'disable-chat-confirmation-modal.message': 'Czy na pewno chcesz wyłączyć ten czat?',
 
       /**
        * Social login redirect pages
        */
-      'social-login-redirect.title': 'Now4real Social Login', // TODO
+      'social-login-redirect.title': 'Now4real Logowanie Social Media',
 
-      'social-login-redirect.step1.msg': 'You are being redirected to $A, please wait...', // TODO
+      'social-login-redirect.step1.msg': 'Zostaniesz przekierowany do $A, proszę czekać...',
       // example: "You are being redirected to Google, please wait..."
 
-      'social-login-redirect.step2.msg': 'You are being redirected, please wait...', // TODO
+      'social-login-redirect.step2.msg': 'Zostaniesz przekierowany, proszę czekać...',
 
-      'social-login-redirect.error': 'Oops! Something went wrong' // TODO
+      'social-login-redirect.error': 'Ups! Coś poszło nie tak'
    },
 
    /****************************************************************************************
