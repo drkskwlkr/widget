@@ -181,6 +181,11 @@ export default {
       'emoji-picker.flags': 'Flags',
 
       /**
+       * GIF-picker labels
+       */
+      'gif-picker.search': 'Search GIF',
+
+      /**
        * Typing
        */
       'typing.a': '1 person is typing...',
@@ -455,6 +460,11 @@ export default {
       'emoji-picker.objects': 'Oggetti',
       'emoji-picker.symbols': 'Simboli',
       'emoji-picker.flags': 'Bandiere',
+
+      /**
+       * GIF-picker labels
+       */
+      'gif-picker.search': 'Cerca GIF',
 
       /**
        * Typing
@@ -733,6 +743,11 @@ export default {
       'emoji-picker.flags': 'Banderas',
 
       /**
+       * GIF-picker labels
+       */
+      'gif-picker.search': 'Search GIF', // TODO
+
+      /**
        * Typing
        */
       'typing.a': 'Una persona está escribiendo...',
@@ -1007,6 +1022,11 @@ export default {
       'emoji-picker.objects': 'Objetos',
       'emoji-picker.symbols': 'Símbolos',
       'emoji-picker.flags': 'Bandeiras',
+
+      /**
+       * GIF-picker labels
+       */
+      'gif-picker.search': 'Search GIF', // TODO
 
       /**
        * Typing
@@ -1285,6 +1305,11 @@ export default {
       'emoji-picker.flags': 'Fahnen',
 
       /**
+       * GIF-picker labels
+       */
+      'gif-picker.search': 'Search GIF', // TODO
+
+      /**
        * Typing
        */
       'typing.a': 'Eine Person schreibt...',
@@ -1561,6 +1586,11 @@ export default {
       'emoji-picker.flags': 'Flagi',
 
       /**
+       * GIF-picker labels
+       */
+      'gif-picker.search': 'Wyszukaj GIF',
+
+      /**
        * Typing
        */
       'typing.a': '1 osoba pisze...',
@@ -1835,6 +1865,11 @@ export default {
       'emoji-picker.objects': 'Obiecte',
       'emoji-picker.symbols': 'Simboluri',
       'emoji-picker.flags': 'Steaguri',
+
+      /**
+       * GIF-picker labels
+       */
+      'gif-picker.search': 'Search GIF', // TODO
 
       /**
        * Typing
@@ -2114,6 +2149,11 @@ export default {
       'emoji-picker.flags': 'Flaggor',
 
       /**
+       * GIF-picker labels
+       */
+      'gif-picker.search': 'Sök GIF',
+
+      /**
        * Typing
        */
       'typing.a': '1 person skriver...',
@@ -2388,6 +2428,11 @@ export default {
       'emoji-picker.objects': 'Objets',
       'emoji-picker.symbols': 'Symboles',
       'emoji-picker.flags': 'Drapeaux',
+
+      /**
+       * GIF-picker labels
+       */
+      'gif-picker.search': 'Recherche GIF',
 
       /**
        * Typing
