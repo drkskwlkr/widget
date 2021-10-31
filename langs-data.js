@@ -2547,5 +2547,286 @@ export default {
       'social-login-redirect.step2.msg': 'Vous êtes redirigé, veuillez patienter...',
 
       'social-login-redirect.error': 'Oups! Quelque chose a mal fonctionné'
-   }
+   },
+   
+   /****************************************************************************************
+   * BULGARIAN (Standard)
+   ****************************************************************************************/
+   'bg': {
+       'genericError': 'Упс! Нещо се счупи.',
+ 
+       'connection-status.offline': 'Няма връзка с интернет',
+ 
+       /**
+        * Time representation
+        */
+       'hourFormat': 24,
+       // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
+ 
+       'timeUnit.minutes': 'минути',
+       'timeUnit.hours': 'часа',
+       'timeUnit.days': 'дни',
+       'timeUnit.weeks': 'седмици',
+       'timeUnit.months': 'месеци',
+       'timeUnit.years': 'години',
+       'timeUnit.forever': 'завинаги',
+ 
+       /**
+        * Commons
+        */
+       'commons.signedWith.google': 'Вписахте се чрез Google',
+       'commons.signedWith.facebook': 'Вписахте се чрез Facebook',
+       'commons.signedWith.twitter': 'Вписахте се чрез Twitter',
+       'commons.signedWith.linkedin': 'Вписахте се чрез LinkedIn',
+       'commons.signedWith.email': 'Вписахте се чрез email',
+       'commons.signedWith.jwt': 'Вписахтесе в този сайт',
+ 
+       'commons.close': 'Затваряне', // close button
+ 
+       /**
+        * Tooltips and balloons on closed widget
+        */
+       'monitor.pageViewersTitle': 'Хора, които разглеждат тази страница',
+       'monitor.siteViewersTitle': 'Хора, които разглеждат този сайт',
+       'monitor.chatBalloon': 'ЧАТ', // keep upper case, if applicable
+       'monitor.presenceBalloon': 'Хора, налични в момента',
+ 
+       /**
+        * Menu
+        */
+       'status-header.options': 'Опции',
+       'status-header.flushChat': 'Нулиране на този чат',
+       'status-header.disableChat': 'Деактивиране на този чат',
+       'status-header.enableChat': 'Активиране на този чат',
+       'status-header.help': 'Помощ',
+       'status-header.issue': 'Докладване на проблем',
+       'status-header.terms': 'Условия за ползване',
+       'status-header.privacy': 'Политика за поверителност',
+       'status-header.signout': 'Отписване',
+       'status-header.signin': 'Вписване',
+ 
+       'status-header.notRememberedLogin': 'Не се запаметява',
+       // means that the login status is temporary and will not be remembered next time
+ 
+       /**
+        * Tab labels and tooltips
+        */
+       'tab.chatTabLabel': 'ЧАТ', // max 8 characters; keep upper case, if applicable
+       'tab.chatTitlePage': 'Пишете си с други посетители на тази страница в реално време',
+       'tab.chatTitleSite': 'Пишете си с други посетители на този сайт в реално време',
+ 
+       'tab.rankingTabLabel': 'СТРАНИЦИ', // max 8 characters; keep upper case, if applicable
+       'tab.rankingTitle': 'Страници, които другите посетители разглеждат в момента',
+ 
+       'tab.heatmapTabLabel': 'КАРТА', // max 8 characters; keep upper case, if applicable
+       'tab.heatmapTitle': 'Откъде са другите посетители',
+ 
+       /**
+        * Heatmap
+        */
+       'heatmap.pageSwitchLabel': 'СТРАНИЦА', // max 12 characters; keep upper case, if applicable
+       'heatmap.siteSwitchLabel': 'САЙТ', // max 12 characters; keep upper case, if applicable
+       'heatmap.empty': 'Няма данни',
+ 
+       /**
+        * Ranking
+        */
+       'ranking.foregroundTitle': 'Посетители в този сайт',
+       'ranking.activeTitle': 'Посетители на сайта, които си пишат',
+       'ranking.foregroundSwitchLabel': 'ЧЕТЯЩИ', // max 12 characters; keep upper case, if applicable
+       'ranking.activeSwitchLabel': 'ПИШЕЩИ', // max 12 characters; keep upper case, if applicable
+       'ranking.empty': 'Няма информация',
+       'ranking.currentPage': 'Настояща страница',
+ 
+       'ranking.note': '10-те най-популярни страници',
+       // note added to the end to the ranking list to explain that only the top ten pages are shown
+ 
+       /**
+        * Chat
+        */
+       'chat.welcomeFirstMessagePage': 'Общувайте с други посетители на тази страница в реално време',
+       'chat.welcomeFirstMessageSite': 'Общувайте с други посетители на този сайт в реално време',
+ 
+       'chat.welcomeSecondMessage': 'Помнете, че вашите съобщения се виждат от всички и изчезват след $N $A',
+       'chat.welcomeSecondMessageJWT': 'Помнете, че вашите съобщения се виждат от всички и изчезват след $N $A',
+       // $N is a number and $A in a time unit taken from timeUnit.
+       // example: "Please remember that your messages are public and disappear after 2 hours"
+ 
+       'chat.messageDeleted.byYou': 'Изтрихте това съобщение',
+       'chat.messageDeleted.byAuthor': 'Съобщението е изтрито от автора',
+       'chat.messageDeleted.byModerator': 'Съобщението е изтрито от модератор',
+       'chat.messageDeleted.byAdmin': 'Съобщението е изтрито от администратор',
+       'chat.messageDeleted.byNow4real': 'Съобщението е изтрито от администратора на Now4real',
+       'chat.messageDeleted.unknown': 'Съобщението е изтрито',
+ 
+       'chat.placeholder': 'Публикувайте съобщение',
+       'chat.postBtn': 'Post', // means "publish this message"
+ 
+       'chat.tooFrequentError': 'Пишете прекалено бързо...\nНедейте да препълвате чата!',
+       // \n means to break the line; \' distinguishes the apostrophe from the final apex
+ 
+       'chat.blockedError': 'Съжаляваме... Това съобщение изглежда неподходящо',
+       'chat.abortedError': 'Вписването е отказано или бисквитките на браузера са изключени',
+       'chat.mutedError': 'Упс! Изглежда сте заглушени',
+       'chat.notPersistentError': 'Автентикацията няма да се запомни заради ограничените настройки за поверителност. Разрешете бисквитките за Now4real във вашия браузер, за да решите този проблем.',
+       'chat.disabledError': 'Чатът е деактивиран',
+ 
+       'chat.disabledByAdmin': 'Чатът е деактивиран от администратор',
+       'chat.disabledByModerator': 'Чатът е деактивиран от модератор',
+       'chat.signinRequired': '<a>Впишете се</a>, за да участвате в разговора',
+       // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+ 
+       'chat.viewOnly': 'Режим само за четене',
+ 
+       // below are the actions on messages that appear in a contextual menu
+       'chat.replyBtn': 'Отговор', // means "reply to this message"
+       'chat.deleteBtn': 'Изтриване', // means "delete this message"
+       'chat.muteBtn': 'Заглушаване', // means "mute this user"
+ 
+       /**
+        * Presence
+        */
+       'presence.all.a': '1 човек е на тази страница (от общо $N за целия сайт)',
+       // example: "1 person on this page (of 23 on this site)"
+ 
+       'presence.all.b': '$N човека са на тази страница (от общо $M за целия сайт)',
+       // example: "5 people on this page (of 23 on this site)"
+ 
+       'presence.page.a': '1 човек е на тази страница',
+       'presence.page.b': '$N човека е на тази страница',
+ 
+       'presence.site.a': '1 човек е на този сайт',
+       'presence.site.b': '$N човека са на този сайт',
+ 
+       /**
+        * Emoji-picker labels
+        */
+       'emoji-picker.people': 'Хора',
+       'emoji-picker.nature': 'Природа',
+       'emoji-picker.food': 'Храна',
+       'emoji-picker.activity': 'Дейности',
+       'emoji-picker.travel': 'Места',
+       'emoji-picker.objects': 'Предмети',
+       'emoji-picker.symbols': 'Символи',
+       'emoji-picker.flags': 'Знамена',
+ 
+       /**
+        * GIF-picker labels
+        */
+       'gif-picker.search': 'Търсене на GIF',
+ 
+       /**
+        * Typing
+        */
+       'typing.a': '1 човек пише...',
+ 
+       'typing.b': '$N човека пишат...',
+       // example: "5 people are typing..."
+ 
+       'typing.c': '$A пише...',
+       // example: "Alex is typing..."
+ 
+       'typing.d': '$A и $B пишат...',
+       // example: "Alex and Ben are typing..."
+ 
+       'typing.e': '$A, $B и $C пишат...',
+       // example: "Alex, Ben, and Cindy are typing..."
+ 
+       'typing.f': '$A и още един човек пишат...',
+       // example: "Alex and 1 other are typing..."
+ 
+       'typing.g': '$A и още $N човека пишат...',
+       // example: "Alex and 3 others are typing..."
+ 
+       'typing.h': '$A, $B и още един човек пишат...',
+       // example: "Alex, Ben, and 1 other are typing..."
+ 
+       'typing.i': '$A, $B и още $N човека пишат...',
+       // example: "Alex, Ben, and 3 others are typing..."
+ 
+       'typing.j': '$A, $B, $C и още един човек пишат...',
+       // example: "Alex, Ben, Cindy, and 1 other are typing..."
+ 
+       'typing.k': '$A, $B, $C и още $N човека пишат...',
+       // example: "Alex, Ben, Cindy, and 3 others are typing..."
+ 
+       /**
+        * Social login dialog
+        */
+       'social-modal.title': 'Вписване',
+       'social-modal.header': 'Комуникирайте във всеки сайт, който използва Now4real',
+ 
+       // buttons:
+       'social-modal.google': 'Вписване чрез Google',
+       'social-modal.facebook': 'Вписване чрез Facebook',
+       'social-modal.twitter': 'Вписване чрез Twitter',
+       'social-modal.linkedin': 'Вписване чрез LinkedIn',
+       'social-modal.email': 'Вписване чрез email',
+ 
+       'social-modal.footer': 'Кликнете върху “Вписване” отгоре, за да приемете <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real',
+       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+ 
+       /**
+        * JWT login dialog
+        */
+       'jwt-modal.title': 'Съгласие',
+ 
+       'jwt-modal.header': 'За да започнете да си пишете с другите, е необходимо да приемете <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real (чат услугата)',
+       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+ 
+       'jwt-modal.button': 'Приемам',
+ 
+       /**
+        * Mute dialog
+        */
+       'mute-modal.title': 'Заглушаване на потребители',
+ 
+       'mute-modal.header': 'Потребителят $U е заглушен до $E',
+       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
+ 
+       'mute-modal.headerForever': 'Потребителят $U е заглушен',
+ 
+       'mute-modal.body.set': 'Заглушете потребителя $U за:',
+       // example: "Mute user Ben for:" followed by input fields with "3 days"
+ 
+       'mute-modal.body.update': 'Променете периода на заглушаване:',
+       // example: "Update mute period:" followed by input fields with "5 days"
+ 
+       'mute-modal.body.deleteInfo': 'Можете да премахнете заглушаването на потребителя когато пожелаете.',
+ 
+       'mute-modal.body.deleteAlert': 'Ще премахнете заглушаването на потребителя',
+ 
+       'mute-modal.button': 'Потвърждение',
+ 
+       /**
+        * Confirm dialog
+        */
+       'confirmation-modal.title': 'Потвърждение',
+       'confirmation-modal.ok': 'Да',
+       'confirmation-modal.cancel': 'Не',
+ 
+       /**
+        * Flush chat confirm dialog
+        */
+       'flush-chat-confirmation-modal.message': 'Сигурни ли сте, че искате да изтриете съдържанието на този чат?',
+ 
+       /**
+        * Disable chat confirm dialog
+        */
+       'disable-chat-confirmation-modal.message': 'Сигурни ли сте, че искате да деактивирате този чат?',
+ 
+       /**
+        * Social login redirect pages
+        */
+       'social-login-redirect.title': 'Now4real Social Login',
+ 
+       'social-login-redirect.step1.msg': 'Пренасочваме ви към $A, моля изчакайте...',
+       // example: "You are being redirected to Google, please wait..."
+ 
+       'social-login-redirect.step2.msg': 'Пренасочваме ви, моля изчакайте...',
+ 
+       'social-login-redirect.error': 'Упс! Нещо не сработи.'
+    }
 }
