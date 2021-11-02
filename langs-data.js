@@ -2350,7 +2350,7 @@ export default {
       /**
        * Ranking
        */
-      'ranking.foregroundTitle': 'Les personnes sur ce sitee',
+      'ranking.foregroundTitle': 'Les personnes sur ce site',
       'ranking.activeTitle': 'Les personnes discutant sur ce site',
       'ranking.foregroundSwitchLabel': 'VISITEURS', // max 12 characters; keep upper case, if applicable
       'ranking.activeSwitchLabel': 'DISCUTEURS', // max 12 characters; keep upper case, if applicable
