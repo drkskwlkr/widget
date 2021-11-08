@@ -2553,7 +2553,7 @@ export default {
     * BULGARIAN (Standard)
     ****************************************************************************************/
    'bg': {
-      'genericError': 'Упс! Нещо се счупи.',
+      'genericError': 'Възникна грешка.',
 
       'connection-status.offline': 'Няма връзка с интернет',
 
@@ -2567,7 +2567,7 @@ export default {
       'timeUnit.hours': 'часа',
       'timeUnit.days': 'дни',
       'timeUnit.weeks': 'седмици',
-      'timeUnit.months': 'месеци',
+      'timeUnit.months': 'месеца',
       'timeUnit.years': 'години',
       'timeUnit.forever': 'завинаги',
 
@@ -2579,17 +2579,17 @@ export default {
       'commons.signedWith.twitter': 'Вписахте се чрез Twitter',
       'commons.signedWith.linkedin': 'Вписахте се чрез LinkedIn',
       'commons.signedWith.email': 'Вписахте се чрез email',
-      'commons.signedWith.jwt': 'Вписахтесе в този сайт',
+      'commons.signedWith.jwt': 'Вписахте се в сайта',
 
       'commons.close': 'Затваряне', // close button
 
       /**
        * Tooltips and balloons on closed widget
        */
-      'monitor.pageViewersTitle': 'Хора, които разглеждат тази страница',
-      'monitor.siteViewersTitle': 'Хора, които разглеждат този сайт',
+      'monitor.pageViewersTitle': 'Посетители, които разглеждат тази страница',
+      'monitor.siteViewersTitle': 'Посетители, които разглеждат този сайт',
       'monitor.chatBalloon': 'ЧАТ', // keep upper case, if applicable
-      'monitor.presenceBalloon': 'Хора, налични в момента',
+      'monitor.presenceBalloon': 'Посетители на линия в момента',
 
       /**
        * Menu
@@ -2599,9 +2599,9 @@ export default {
       'status-header.disableChat': 'Деактивиране на този чат',
       'status-header.enableChat': 'Активиране на този чат',
       'status-header.help': 'Помощ',
-      'status-header.issue': 'Докладване на проблем',
+      'status-header.issue': 'Докладвайте проблем',
       'status-header.terms': 'Условия за ползване',
-      'status-header.privacy': 'Политика за поверителност',
+      'status-header.privacy': 'Защита лични данни',
       'status-header.signout': 'Отписване',
       'status-header.signin': 'Вписване',
 
@@ -2632,7 +2632,7 @@ export default {
        * Ranking
        */
       'ranking.foregroundTitle': 'Посетители в този сайт',
-      'ranking.activeTitle': 'Посетители на сайта, които си пишат',
+      'ranking.activeTitle': 'Посетители на сайта, които си кореспондират',
       'ranking.foregroundSwitchLabel': 'ЧЕТЯЩИ', // max 12 characters; keep upper case, if applicable
       'ranking.activeSwitchLabel': 'ПИШЕЩИ', // max 12 characters; keep upper case, if applicable
       'ranking.empty': 'Няма информация',
@@ -2659,7 +2659,7 @@ export default {
       'chat.messageDeleted.byNow4real': 'Съобщението е изтрито от администратора на Now4real',
       'chat.messageDeleted.unknown': 'Съобщението е изтрито',
 
-      'chat.placeholder': 'Публикувайте съобщение',
+      'chat.placeholder': 'Напишете съобщение',
       'chat.postBtn': 'Post', // means "publish this message"
 
       'chat.tooFrequentError': 'Пишете прекалено бързо...\nНедейте да препълвате чата!',
@@ -2686,17 +2686,17 @@ export default {
       /**
        * Presence
        */
-      'presence.all.a': '1 човек е на тази страница (от общо $N за целия сайт)',
+      'presence.all.a': '1 посетител е на тази страница (от общо $N за целия сайт)',
       // example: "1 person on this page (of 23 on this site)"
 
-      'presence.all.b': '$N човека са на тази страница (от общо $M за целия сайт)',
+      'presence.all.b': '$N посетителя са на тази страница (от общо $M за целия сайт)',
       // example: "5 people on this page (of 23 on this site)"
 
-      'presence.page.a': '1 човек е на тази страница',
-      'presence.page.b': '$N човека е на тази страница',
+      'presence.page.a': 'На тази страница има 1 посетител',
+      'presence.page.b': 'На тази страница има $N посетителя',
 
-      'presence.site.a': '1 човек е на този сайт',
-      'presence.site.b': '$N човека са на този сайт',
+      'presence.site.a': 'В сайта има 1 посетител',
+      'presence.site.b': 'В сайта има $N посетителя',
 
       /**
        * Emoji-picker labels
@@ -2718,9 +2718,9 @@ export default {
       /**
        * Typing
        */
-      'typing.a': '1 човек пише...',
+      'typing.a': '1 участник пише...',
 
-      'typing.b': '$N човека пишат...',
+      'typing.b': '$N участника пишат...',
       // example: "5 people are typing..."
 
       'typing.c': '$A пише...',
@@ -2732,22 +2732,22 @@ export default {
       'typing.e': '$A, $B и $C пишат...',
       // example: "Alex, Ben, and Cindy are typing..."
 
-      'typing.f': '$A и още един човек пишат...',
+      'typing.f': '$A и още един участник пишат...',
       // example: "Alex and 1 other are typing..."
 
-      'typing.g': '$A и още $N човека пишат...',
+      'typing.g': '$A и още $N участника пишат...',
       // example: "Alex and 3 others are typing..."
 
-      'typing.h': '$A, $B и още един човек пишат...',
+      'typing.h': '$A, $B и още един участник пишат...',
       // example: "Alex, Ben, and 1 other are typing..."
 
-      'typing.i': '$A, $B и още $N човека пишат...',
+      'typing.i': '$A, $B и още $N участника пишат...',
       // example: "Alex, Ben, and 3 others are typing..."
 
-      'typing.j': '$A, $B, $C и още един човек пишат...',
+      'typing.j': '$A, $B, $C и още един участника пишат...',
       // example: "Alex, Ben, Cindy, and 1 other are typing..."
 
-      'typing.k': '$A, $B, $C и още $N човека пишат...',
+      'typing.k': '$A, $B, $C и още $N участника пишат...',
       // example: "Alex, Ben, Cindy, and 3 others are typing..."
 
       /**
@@ -2763,7 +2763,7 @@ export default {
       'social-modal.linkedin': 'Вписване чрез LinkedIn',
       'social-modal.email': 'Вписване чрез email',
 
-      'social-modal.footer': 'Кликнете върху “Вписване” отгоре, за да приемете <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real',
+      'social-modal.footer': 'Кликнете върху "Вписване" по-горе, за да приемете <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real',
       // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
       // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
@@ -2781,22 +2781,22 @@ export default {
       /**
        * Mute dialog
        */
-      'mute-modal.title': 'Заглушаване на потребители',
+      'mute-modal.title': 'Заглушаване на посетители',
 
-      'mute-modal.header': 'Потребителят $U е заглушен до $E',
+      'mute-modal.header': 'Посетителят $U е заглушен до $E',
       // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
-      'mute-modal.headerForever': 'Потребителят $U е заглушен',
+      'mute-modal.headerForever': 'Посетителят $U е трайно заглушен',
 
-      'mute-modal.body.set': 'Заглушете потребителя $U за:',
+      'mute-modal.body.set': 'Заглушете посетителя $U за:',
       // example: "Mute user Ben for:" followed by input fields with "3 days"
 
       'mute-modal.body.update': 'Променете периода на заглушаване:',
       // example: "Update mute period:" followed by input fields with "5 days"
 
-      'mute-modal.body.deleteInfo': 'Можете да премахнете заглушаването на потребителя когато пожелаете.',
+      'mute-modal.body.deleteInfo': 'Можете да премахнете заглушаването на посетителя когато пожелаете.',
 
-      'mute-modal.body.deleteAlert': 'Ще премахнете заглушаването на потребителя',
+      'mute-modal.body.deleteAlert': 'Ще премахнете заглушаването на посетителя',
 
       'mute-modal.button': 'Потвърждение',
 
@@ -2827,6 +2827,6 @@ export default {
 
       'social-login-redirect.step2.msg': 'Пренасочваме ви, моля изчакайте...',
 
-      'social-login-redirect.error': 'Упс! Нещо не сработи.'
+      'social-login-redirect.error': 'Вписването не беше успешно.'
    }
 }
